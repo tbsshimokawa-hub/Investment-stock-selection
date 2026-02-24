@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ファンド月報分析ダッシュボード | 情報エレクトロニクスファンド</title>
+    <meta name="description" content="野村アセットマネジメント 情報エレクトロニクスファンドの月報分析・組入候補推定ダッシュボード">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- ===== ヘッダー ===== -->
+    <header id="app-header">
+        <div class="header-content">
+            <div class="header-left">
+                <div class="logo-mark">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <rect width="36" height="36" rx="8" fill="url(#grad1)" />
+                        <path d="M10 18L16 12L22 18L28 12" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M10 24L16 18L22 24L28 18" stroke="rgba(255,255,255,0.5)" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <defs>
+                            <linearGradient id="grad1" x1="0" y1="0" x2="36" y2="36">
+                                <stop offset="0%" stop-color="#6366f1" />
+                                <stop offset="100%" stop-color="#8b5cf6" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="header-titles">
+                    <h1>ファンド月報分析ダッシュボード</h1>
+                    <p class="header-subtitle">
+                        <span class="fund-badge">野村アセットマネジメント</span>
+                        <span class="fund-name">情報エレクトロニクスファンド</span>
+                    </p>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">データ期間</span>
+                        <span class="meta-value" id="data-period">--</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">最終更新</span>
+                        <span class="meta-value" id="last-updated">--</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="disclaimer-bar">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                <path
+                    d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 2.5a.75.75 0 01.75.75v4a.75.75 0 01-1.5 0v-4A.75.75 0 018 3.5zm0 8a.75.75 0 100-1.5.75.75 0 000 1.5z" />
+            </svg>
+            <span>本ツールはリサーチ支援を目的としており、投資助言ではありません。予測結果は過去データに基づく仮説であり、将来の運用成果を保証するものではありません。</span>
+        </div>
+    </header>
+
+    <main id="app-main">
+        <!-- ===== ローディング ===== -->
+        <div id="loading-overlay">
+            <div class="loader">
+                <div class="loader-spinner"></div>
+                <p>データを読み込んでいます...</p>
+            </div>
+        </div>
+
+        <!-- ===== セクション1: サマリーKPI ===== -->
+        <section id="section-kpi" class="dashboard-section">
+            <h2 class="section-title">
+                <span class="section-icon">📊</span>
+                サマリー
+            </h2>
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-label">解析月報数</div>
+                    <div class="kpi-value" id="kpi-total-reports">--</div>
+                    <div class="kpi-unit">ヶ月</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">直近の主要テーマ</div>
+                    <div class="kpi-tags" id="kpi-top-themes"></div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">直近の組入変化</div>
+                    <div class="kpi-value" id="kpi-change-count">--</div>
+                    <div class="kpi-unit">件</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">予測モデル Top-5 ヒット率</div>
+                    <div class="kpi-value accent" id="kpi-hit-rate">--%</div>
+                    <div class="kpi-unit">バックテスト平均</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== セクション2: テーマ時系列ビュー ===== -->
+        <section id="section-themes" class="dashboard-section">
+            <h2 class="section-title">
+                <span class="section-icon">📈</span>
+                テーマ強度の時系列推移
+            </h2>
+            <div class="section-controls">
+                <div class="period-selector">
+                    <button class="period-btn active" data-period="all">全期間</button>
+                    <button class="period-btn" data-period="3y">3年</button>
+                    <button class="period-btn" data-period="1y">1年</button>
+                    <button class="period-btn" data-period="ytd">YTD</button>
+                </div>
+                <div class="theme-toggles" id="theme-toggles"></div>
+            </div>
+            <div class="chart-container" id="chart-themes" style="height:420px;"></div>
+        </section>
+
+        <!-- ===== セクション3: 組入銘柄変化ビュー ===== -->
+        <section id="section-holdings" class="dashboard-section">
+            <h2 class="section-title">
+                <span class="section-icon">🏢</span>
+                組入上位銘柄の変化
+            </h2>
+            <div class="section-controls">
+                <div class="month-nav">
+                    <button id="holdings-prev" class="nav-btn">◀</button>
+                    <span id="holdings-month-display" class="month-display">--</span>
+                    <button id="holdings-next" class="nav-btn">▶</button>
+                </div>
+            </div>
+            <div class="holdings-view">
+                <div class="holdings-table-wrapper">
+                    <table class="holdings-table" id="holdings-table">
+                        <thead>
+                            <tr>
+                                <th>順位</th>
+                                <th>銘柄名</th>
+                                <th>比率</th>
+                                <th>変化</th>
+                            </tr>
+                        </thead>
+                        <tbody id="holdings-tbody"></tbody>
+                    </table>
+                </div>
+                <div class="holdings-detail" id="holdings-detail">
+                    <div class="detail-placeholder">
+                        <p>銘柄をクリックすると、時系列履歴・解説文の変遷を表示します</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== セクション4: 運用方針テキスト分析 ===== -->
+        <section id="section-policy" class="dashboard-section">
+            <h2 class="section-title">
+                <span class="section-icon">📝</span>
+                運用方針テキスト分析
+            </h2>
+            <div class="section-controls">
+                <div class="month-nav">
+                    <button id="policy-prev" class="nav-btn">◀</button>
+                    <span id="policy-month-display" class="month-display">--</span>
+                    <button id="policy-next" class="nav-btn">▶</button>
+                </div>
+            </div>
+            <div class="policy-grid">
+                <div class="policy-card">
+                    <h3>今後の運用方針</h3>
+                    <div class="policy-text" id="policy-text"></div>
+                </div>
+                <div class="policy-card">
+                    <h3>抽出キーワード</h3>
+                    <div class="keyword-cloud" id="keyword-cloud"></div>
+                </div>
+                <div class="policy-card">
+                    <h3>前月比キーワード変化</h3>
+                    <div id="keyword-changes"></div>
+                </div>
+                <div class="policy-card">
+                    <h3>売買シグナル</h3>
+                    <div class="signals-view" id="signals-view"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== セクション5: 候補銘柄予測ビュー (最重要) ===== -->
+        <section id="section-candidates" class="dashboard-section highlight-section">
+            <h2 class="section-title">
+                <span class="section-icon">🎯</span>
+                新規組入候補（仮説）
+            </h2>
+            <div class="candidate-disclaimer">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                    <path
+                        d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 2.5a.75.75 0 01.75.75v4a.75.75 0 01-1.5 0v-4A.75.75 0 018 3.5zm0 8a.75.75 0 100-1.5.75.75 0 000 1.5z" />
+                </svg>
+                以下は過去データに基づく仮説であり、実際の組入を予測・保証するものではありません
+            </div>
+            <div class="candidates-list" id="candidates-list"></div>
+            <div class="export-bar">
+                <button class="export-btn" id="btn-export-candidates" title="候補銘柄をCSVエクスポート">
+                    📥 CSVエクスポート
+                </button>
+            </div>
+        </section>
+
+
+
+
+        <!-- ===== セクション7: データ品質 ===== -->
+        <section id="section-quality" class="dashboard-section">
+            <h2 class="section-title">
+                <span class="section-icon">🔍</span>
+                データ品質レポート
+            </h2>
+            <div class="quality-summary" id="quality-summary"></div>
+            <div class="quality-table-wrapper">
+                <table class="quality-table" id="quality-table">
+                    <thead>
+                        <tr>
+                            <th>月</th>
+                            <th>抽出状態</th>
+                            <th>抽出フィールド</th>
+                            <th>欠損</th>
+                            <th>問題点</th>
+                        </tr>
+                    </thead>
+                    <tbody id="quality-tbody"></tbody>
+                </table>
+            </div>
+            <div class="quality-note">
+                <p>💡 抽出結果は <code>data/reports_data.json</code> に保存されています。手動で修正可能です。修正後に
+                    <code>python src/analyze.py</code> を再実行してください。</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== フッター ===== -->
+    <footer id="app-footer">
+        <p>ファンド月報分析ダッシュボード v1.0 — リサーチ支援ツール</p>
+        <p class="footer-note">本ツールは投資助言を目的としたものではありません。データの正確性を保証するものではなく、投資判断の根拠としての使用は推奨しません。</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
