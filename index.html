@@ -8,244 +8,391 @@
     <meta name="description" content="野村アセットマネジメント 情報エレクトロニクスファンドの月報分析・組入候補推定ダッシュボード">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- ===== ヘッダー ===== -->
-    <header id="app-header">
-        <div class="header-content">
-            <div class="header-left">
-                <div class="logo-mark">
-                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-                        <rect width="36" height="36" rx="8" fill="url(#grad1)" />
-                        <path d="M10 18L16 12L22 18L28 12" stroke="white" stroke-width="2.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M10 24L16 18L22 24L28 18" stroke="rgba(255,255,255,0.5)" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                        <defs>
-                            <linearGradient id="grad1" x1="0" y1="0" x2="36" y2="36">
-                                <stop offset="0%" stop-color="#6366f1" />
-                                <stop offset="100%" stop-color="#8b5cf6" />
-                            </linearGradient>
-                        </defs>
+    <div class="app-layout">
+
+        <!-- ===== サイドバー ===== -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo-mark">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
+                        <rect width="34" height="34" rx="9" fill="#00B050"/>
+                        <path d="M8 17L13.5 11L19 17L24.5 11" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 23L13.5 17L19 23L24.5 17" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                <div class="header-titles">
-                    <h1>ファンド月報分析ダッシュボード</h1>
-                    <p class="header-subtitle">
-                        <span class="fund-badge">野村アセットマネジメント</span>
-                        <span class="fund-name">情報エレクトロニクスファンド</span>
-                    </p>
+                <div class="sidebar-title">
+                    <span class="sidebar-title-main">ファンド分析</span>
+                    <span class="sidebar-title-sub">ダッシュボード</span>
                 </div>
             </div>
-            <div class="header-right">
-                <div class="header-meta">
-                    <div class="meta-item">
-                        <span class="meta-label">データ期間</span>
-                        <span class="meta-value" id="data-period">--</span>
-                    </div>
-                    <div class="meta-item">
-                        <span class="meta-label">最終更新</span>
-                        <span class="meta-value" id="last-updated">--</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="disclaimer-bar">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                <path
-                    d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 2.5a.75.75 0 01.75.75v4a.75.75 0 01-1.5 0v-4A.75.75 0 018 3.5zm0 8a.75.75 0 100-1.5.75.75 0 000 1.5z" />
-            </svg>
-            <span>本ツールはリサーチ支援を目的としており、投資助言ではありません。予測結果は過去データに基づく仮説であり、将来の運用成果を保証するものではありません。</span>
-        </div>
-    </header>
 
-    <main id="app-main">
-        <!-- ===== ローディング ===== -->
-        <div id="loading-overlay">
-            <div class="loader">
-                <div class="loader-spinner"></div>
-                <p>データを読み込んでいます...</p>
-            </div>
-        </div>
+            <nav class="sidebar-nav">
+                <a class="nav-item active" href="#section-kpi" data-section="section-kpi">
+                    <svg class="nav-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>
+                    </svg>
+                    <span>サマリー</span>
+                </a>
+                <a class="nav-item" href="#section-themes" data-section="section-themes">
+                    <svg class="nav-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                    </svg>
+                    <span>テーマ推移</span>
+                </a>
+                <a class="nav-item" href="#section-holdings" data-section="section-holdings">
+                    <svg class="nav-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+                    </svg>
+                    <span>組入銘柄</span>
+                </a>
+                <a class="nav-item" href="#section-policy" data-section="section-policy">
+                    <svg class="nav-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
+                    </svg>
+                    <span>テキスト分析</span>
+                </a>
+                <a class="nav-item nav-item-highlight" href="#section-candidates" data-section="section-candidates">
+                    <svg class="nav-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+                    </svg>
+                    <span>組入候補</span>
+                    <span class="nav-badge">AI</span>
+                </a>
+                <a class="nav-item" href="#section-quality" data-section="section-quality">
+                    <svg class="nav-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                    <span>データ品質</span>
+                </a>
+            </nav>
 
-        <!-- ===== セクション1: サマリーKPI ===== -->
-        <section id="section-kpi" class="dashboard-section">
-            <h2 class="section-title">
-                <span class="section-icon">📊</span>
-                サマリー
-            </h2>
-            <div class="kpi-grid">
-                <div class="kpi-card">
-                    <div class="kpi-label">解析月報数</div>
-                    <div class="kpi-value" id="kpi-total-reports">--</div>
-                    <div class="kpi-unit">ヶ月</div>
-                </div>
-                <div class="kpi-card">
-                    <div class="kpi-label">直近の主要テーマ</div>
-                    <div class="kpi-tags" id="kpi-top-themes"></div>
-                </div>
-                <div class="kpi-card">
-                    <div class="kpi-label">直近の組入変化</div>
-                    <div class="kpi-value" id="kpi-change-count">--</div>
-                    <div class="kpi-unit">件</div>
-                </div>
-                <div class="kpi-card">
-                    <div class="kpi-label">予測モデル Top-5 ヒット率</div>
-                    <div class="kpi-value accent" id="kpi-hit-rate">--%</div>
-                    <div class="kpi-unit">バックテスト平均</div>
+            <div class="sidebar-footer">
+                <div class="sidebar-footer-inner">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".5">
+                        <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+                    </svg>
+                    <span>v1.0 — リサーチ支援ツール</span>
                 </div>
             </div>
-        </section>
+        </aside>
 
-        <!-- ===== セクション2: テーマ時系列ビュー ===== -->
-        <section id="section-themes" class="dashboard-section">
-            <h2 class="section-title">
-                <span class="section-icon">📈</span>
-                テーマ強度の時系列推移
-            </h2>
-            <div class="section-controls">
-                <div class="period-selector">
-                    <button class="period-btn active" data-period="all">全期間</button>
-                    <button class="period-btn" data-period="3y">3年</button>
-                    <button class="period-btn" data-period="1y">1年</button>
-                    <button class="period-btn" data-period="ytd">YTD</button>
-                </div>
-                <div class="theme-toggles" id="theme-toggles"></div>
-            </div>
-            <div class="chart-container" id="chart-themes" style="height:420px;"></div>
-        </section>
+        <!-- オーバーレイ（モバイル用） -->
+        <div class="sidebar-overlay" id="sidebar-overlay"></div>
 
-        <!-- ===== セクション3: 組入銘柄変化ビュー ===== -->
-        <section id="section-holdings" class="dashboard-section">
-            <h2 class="section-title">
-                <span class="section-icon">🏢</span>
-                組入上位銘柄の変化
-            </h2>
-            <div class="section-controls">
-                <div class="month-nav">
-                    <button id="holdings-prev" class="nav-btn">◀</button>
-                    <span id="holdings-month-display" class="month-display">--</span>
-                    <button id="holdings-next" class="nav-btn">▶</button>
-                </div>
-            </div>
-            <div class="holdings-view">
-                <div class="holdings-table-wrapper">
-                    <table class="holdings-table" id="holdings-table">
-                        <thead>
-                            <tr>
-                                <th>順位</th>
-                                <th>銘柄名</th>
-                                <th>比率</th>
-                                <th>変化</th>
-                            </tr>
-                        </thead>
-                        <tbody id="holdings-tbody"></tbody>
-                    </table>
-                </div>
-                <div class="holdings-detail" id="holdings-detail">
-                    <div class="detail-placeholder">
-                        <p>銘柄をクリックすると、時系列履歴・解説文の変遷を表示します</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- ===== メインコンテンツ ===== -->
+        <div class="main-wrapper">
 
-        <!-- ===== セクション4: 運用方針テキスト分析 ===== -->
-        <section id="section-policy" class="dashboard-section">
-            <h2 class="section-title">
-                <span class="section-icon">📝</span>
-                運用方針テキスト分析
-            </h2>
-            <div class="section-controls">
-                <div class="month-nav">
-                    <button id="policy-prev" class="nav-btn">◀</button>
-                    <span id="policy-month-display" class="month-display">--</span>
-                    <button id="policy-next" class="nav-btn">▶</button>
-                </div>
-            </div>
-            <div class="policy-grid">
-                <div class="policy-card">
-                    <h3>今後の運用方針</h3>
-                    <div class="policy-text" id="policy-text"></div>
-                </div>
-                <div class="policy-card">
-                    <h3>抽出キーワード</h3>
-                    <div class="keyword-cloud" id="keyword-cloud"></div>
-                </div>
-                <div class="policy-card">
-                    <h3>前月比キーワード変化</h3>
-                    <div id="keyword-changes"></div>
-                </div>
-                <div class="policy-card">
-                    <h3>売買シグナル</h3>
-                    <div class="signals-view" id="signals-view"></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===== セクション5: 候補銘柄予測ビュー (最重要) ===== -->
-        <section id="section-candidates" class="dashboard-section highlight-section">
-            <h2 class="section-title">
-                <span class="section-icon">🎯</span>
-                新規組入候補（仮説）
-            </h2>
-            <div class="candidate-disclaimer">
-                <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
-                    <path
-                        d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 2.5a.75.75 0 01.75.75v4a.75.75 0 01-1.5 0v-4A.75.75 0 018 3.5zm0 8a.75.75 0 100-1.5.75.75 0 000 1.5z" />
-                </svg>
-                以下は過去データに基づく仮説であり、実際の組入を予測・保証するものではありません
-            </div>
-            <div class="candidates-list" id="candidates-list"></div>
-            <div class="export-bar">
-                <button class="export-btn" id="btn-export-candidates" title="候補銘柄をCSVエクスポート">
-                    📥 CSVエクスポート
+            <!-- トップバー -->
+            <header class="top-bar" id="app-header">
+                <button class="sidebar-toggle" id="sidebar-toggle" aria-label="メニュー">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                        <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+                    </svg>
                 </button>
+                <div class="top-bar-fund">
+                    <span class="fund-badge-sm">野村アセットマネジメント</span>
+                    <h1 class="top-bar-title">情報エレクトロニクスファンド</h1>
+                </div>
+                <div class="top-bar-meta">
+                    <div class="meta-chip">
+                        <span class="meta-chip-label">データ期間</span>
+                        <span class="meta-chip-value" id="data-period">--</span>
+                    </div>
+                    <div class="meta-chip">
+                        <span class="meta-chip-label">最終更新</span>
+                        <span class="meta-chip-value" id="last-updated">--</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- 免責バー -->
+            <div class="disclaimer-strip">
+                <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" style="flex-shrink:0;opacity:.7">
+                    <path d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 2.5a.75.75 0 01.75.75v4a.75.75 0 01-1.5 0v-4A.75.75 0 018 3.5zm0 8a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
+                </svg>
+                <span>本ツールはリサーチ支援を目的としており、投資助言ではありません。予測結果は過去データに基づく仮説であり、将来の運用成果を保証するものではありません。</span>
             </div>
-        </section>
 
+            <!-- メイン -->
+            <main id="app-main">
 
+                <!-- ローディング -->
+                <div id="loading-overlay">
+                    <div class="loader">
+                        <div class="loader-ring"></div>
+                        <p>データを読み込んでいます...</p>
+                    </div>
+                </div>
 
+                <!-- ===== セクション1: サマリーKPI ===== -->
+                <section id="section-kpi" class="dash-section">
+                    <div class="section-head">
+                        <div class="section-head-icon" style="background:#E6F9F0;color:#00B050;">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>
+                            </svg>
+                        </div>
+                        <h2 class="section-title">サマリー</h2>
+                    </div>
+                    <div class="kpi-grid">
+                        <!-- 解析月報数 -->
+                        <div class="kpi-card">
+                            <div class="kpi-icon-wrap" style="background:#E6F9F0;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00B050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
+                                </svg>
+                            </div>
+                            <div class="kpi-body">
+                                <div class="kpi-label">解析月報数</div>
+                                <div class="kpi-value-row">
+                                    <span class="kpi-value" id="kpi-total-reports">--</span>
+                                    <span class="kpi-unit">ヶ月</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 直近テーマ -->
+                        <div class="kpi-card kpi-card-tags">
+                            <div class="kpi-icon-wrap" style="background:#EBF3FF;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/>
+                                </svg>
+                            </div>
+                            <div class="kpi-body">
+                                <div class="kpi-label">直近の主要テーマ</div>
+                                <div class="kpi-tags" id="kpi-top-themes"></div>
+                            </div>
+                        </div>
+                        <!-- 組入変化 -->
+                        <div class="kpi-card">
+                            <div class="kpi-icon-wrap" style="background:#FFF7E6;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/>
+                                </svg>
+                            </div>
+                            <div class="kpi-body">
+                                <div class="kpi-label">直近の組入変化</div>
+                                <div class="kpi-value-row">
+                                    <span class="kpi-value" id="kpi-change-count">--</span>
+                                    <span class="kpi-unit">件</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ヒット率 -->
+                        <div class="kpi-card">
+                            <div class="kpi-icon-wrap" style="background:#F0FDF4;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>
+                                </svg>
+                            </div>
+                            <div class="kpi-body">
+                                <div class="kpi-label">予測 Top-5 ヒット率</div>
+                                <div class="kpi-value-row">
+                                    <span class="kpi-value kpi-accent" id="kpi-hit-rate">--%</span>
+                                    <span class="kpi-unit">バックテスト平均</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-        <!-- ===== セクション7: データ品質 ===== -->
-        <section id="section-quality" class="dashboard-section">
-            <h2 class="section-title">
-                <span class="section-icon">🔍</span>
-                データ品質レポート
-            </h2>
-            <div class="quality-summary" id="quality-summary"></div>
-            <div class="quality-table-wrapper">
-                <table class="quality-table" id="quality-table">
-                    <thead>
-                        <tr>
-                            <th>月</th>
-                            <th>抽出状態</th>
-                            <th>抽出フィールド</th>
-                            <th>欠損</th>
-                            <th>問題点</th>
-                        </tr>
-                    </thead>
-                    <tbody id="quality-tbody"></tbody>
-                </table>
-            </div>
-            <div class="quality-note">
-                <p>💡 抽出結果は <code>data/reports_data.json</code> に保存されています。手動で修正可能です。修正後に
-                    <code>python src/analyze.py</code> を再実行してください。</p>
-            </div>
-        </section>
-    </main>
+                <!-- ===== セクション2: テーマ時系列ビュー ===== -->
+                <section id="section-themes" class="dash-section">
+                    <div class="section-head">
+                        <div class="section-head-icon" style="background:#EBF3FF;color:#3B82F6;">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                            </svg>
+                        </div>
+                        <h2 class="section-title">テーマ強度の時系列推移</h2>
+                    </div>
+                    <div class="section-controls">
+                        <div class="period-selector">
+                            <button class="period-btn active" data-period="all">全期間</button>
+                            <button class="period-btn" data-period="3y">3年</button>
+                            <button class="period-btn" data-period="1y">1年</button>
+                            <button class="period-btn" data-period="ytd">YTD</button>
+                        </div>
+                        <div class="theme-toggles" id="theme-toggles"></div>
+                    </div>
+                    <div class="chart-wrap" id="chart-themes" style="height:400px;"></div>
+                </section>
 
-    <!-- ===== フッター ===== -->
-    <footer id="app-footer">
-        <p>ファンド月報分析ダッシュボード v1.0 — リサーチ支援ツール</p>
-        <p class="footer-note">本ツールは投資助言を目的としたものではありません。データの正確性を保証するものではなく、投資判断の根拠としての使用は推奨しません。</p>
-    </footer>
+                <!-- ===== セクション3: 組入銘柄変化ビュー ===== -->
+                <section id="section-holdings" class="dash-section">
+                    <div class="section-head">
+                        <div class="section-head-icon" style="background:#FFF7E6;color:#F59E0B;">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+                            </svg>
+                        </div>
+                        <h2 class="section-title">組入上位銘柄の変化</h2>
+                        <div class="section-head-right">
+                            <div class="month-nav">
+                                <button id="holdings-prev" class="nav-btn" aria-label="前の月">
+                                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                                </button>
+                                <span id="holdings-month-display" class="month-display">--</span>
+                                <button id="holdings-next" class="nav-btn" aria-label="次の月">
+                                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="holdings-layout">
+                        <div class="holdings-table-panel">
+                            <table class="mf-table" id="holdings-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width:44px;">#</th>
+                                        <th>銘柄名</th>
+                                        <th style="width:68px;text-align:right;">比率</th>
+                                        <th style="width:76px;text-align:center;">変化</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="holdings-tbody"></tbody>
+                            </table>
+                        </div>
+                        <div class="holdings-detail-panel" id="holdings-detail">
+                            <div class="detail-empty">
+                                <div class="detail-empty-icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+                                    </svg>
+                                </div>
+                                <p>銘柄をクリックすると<br>詳細と時系列を表示します</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===== セクション4: 運用方針テキスト分析 ===== -->
+                <section id="section-policy" class="dash-section">
+                    <div class="section-head">
+                        <div class="section-head-icon" style="background:#F5F0FF;color:#8B5CF6;">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
+                            </svg>
+                        </div>
+                        <h2 class="section-title">運用方針テキスト分析</h2>
+                        <div class="section-head-right">
+                            <div class="month-nav">
+                                <button id="policy-prev" class="nav-btn" aria-label="前の月">
+                                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                                </button>
+                                <span id="policy-month-display" class="month-display">--</span>
+                                <button id="policy-next" class="nav-btn" aria-label="次の月">
+                                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="policy-grid">
+                        <div class="policy-card">
+                            <div class="policy-card-title">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/></svg>
+                                今後の運用方針
+                            </div>
+                            <div class="policy-text" id="policy-text"></div>
+                        </div>
+                        <div class="policy-card">
+                            <div class="policy-card-title">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/></svg>
+                                抽出キーワード
+                            </div>
+                            <div class="keyword-cloud" id="keyword-cloud"></div>
+                        </div>
+                        <div class="policy-card">
+                            <div class="policy-card-title">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/></svg>
+                                前月比キーワード変化
+                            </div>
+                            <div id="keyword-changes"></div>
+                        </div>
+                        <div class="policy-card">
+                            <div class="policy-card-title">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                                売買シグナル
+                            </div>
+                            <div class="signals-view" id="signals-view"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===== セクション5: 候補銘柄予測ビュー ===== -->
+                <section id="section-candidates" class="dash-section highlight-section">
+                    <div class="section-head">
+                        <div class="section-head-icon" style="background:#E6F9F0;color:#00B050;">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+                            </svg>
+                        </div>
+                        <h2 class="section-title">新規組入候補（仮説）</h2>
+                        <span class="section-head-badge">AI予測</span>
+                    </div>
+                    <div class="notice-bar notice-warning">
+                        <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" style="flex-shrink:0">
+                            <path d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 2.5a.75.75 0 01.75.75v4a.75.75 0 01-1.5 0v-4A.75.75 0 018 3.5zm0 8a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
+                        </svg>
+                        以下は過去データに基づく仮説であり、実際の組入を予測・保証するものではありません
+                    </div>
+                    <div class="candidates-list" id="candidates-list"></div>
+                    <div class="section-footer-bar">
+                        <button class="btn-outline" id="btn-export-candidates">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            CSVエクスポート
+                        </button>
+                    </div>
+                </section>
+
+                <!-- ===== セクション7: データ品質 ===== -->
+                <section id="section-quality" class="dash-section">
+                    <div class="section-head">
+                        <div class="section-head-icon" style="background:#F0FDF4;color:#10B981;">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                        </div>
+                        <h2 class="section-title">データ品質レポート</h2>
+                    </div>
+                    <div class="quality-summary" id="quality-summary"></div>
+                    <div class="table-scroll">
+                        <table class="mf-table" id="quality-table">
+                            <thead>
+                                <tr>
+                                    <th>月</th>
+                                    <th>抽出状態</th>
+                                    <th>抽出フィールド</th>
+                                    <th>欠損</th>
+                                    <th>問題点</th>
+                                </tr>
+                            </thead>
+                            <tbody id="quality-tbody"></tbody>
+                        </table>
+                    </div>
+                    <div class="notice-bar notice-info" style="margin-top:16px;margin-bottom:0;">
+                        <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" style="flex-shrink:0">
+                            <path d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 2.5a.75.75 0 01.75.75v4a.75.75 0 01-1.5 0v-4A.75.75 0 018 3.5zm0 8a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
+                        </svg>
+                        抽出結果は <code>data/reports_data.json</code> に保存されています。修正後に <code>python src/analyze.py</code> を再実行してください。
+                    </div>
+                </section>
+
+            </main>
+
+            <footer class="app-footer">
+                <p>ファンド月報分析ダッシュボード v1.0 — リサーチ支援ツール</p>
+                <p class="footer-note">本ツールは投資助言を目的としたものではありません。データの正確性を保証するものではなく、投資判断の根拠としての使用は推奨しません。</p>
+            </footer>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>

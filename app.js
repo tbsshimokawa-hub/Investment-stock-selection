@@ -19,15 +19,69 @@ const AppState = {
 
 // テーマカラーマップ
 const THEME_COLORS = {
-    '半導体': '#6366f1',
-    'AI・データセンター': '#8b5cf6',
-    '通信インフラ': '#06b6d4',
-    '車載・電装': '#f97316',
-    'コンテンツ・エンタメ×テクノロジー': '#ec4899',
-    'セキュリティ・防衛': '#ef4444',
-    '設備投資・FA': '#10b981',
-    '電子部品・デバイス': '#f59e0b',
+    '半導体': '#27AE60',
+    'AI・データセンター': '#2980B9',
+    '通信インフラ': '#17A2B8',
+    '車載・電装': '#E67E22',
+    'コンテンツ・エンタメ×テクノロジー': '#E91E63',
+    'セキュリティ・防衛': '#E74C3C',
+    '設備投資・FA': '#1ABC9C',
+    '電子部品・デバイス': '#F39C12',
 };
+
+// =============================================================================
+// サイドバー初期化（Scrollspy + モバイルトグル）
+// =============================================================================
+function initSidebar() {
+    const navItems = document.querySelectorAll('.nav-item[data-section]');
+    const sidebar  = document.getElementById('sidebar');
+    const overlay  = document.getElementById('sidebar-overlay');
+    const toggle   = document.getElementById('sidebar-toggle');
+
+    // --- Scrollspy ---
+    const sectionIds = Array.from(navItems).map(el => el.dataset.section);
+    const sections   = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                navItems.forEach(el => el.classList.remove('active'));
+                const active = document.querySelector(`.nav-item[data-section="${entry.target.id}"]`);
+                if (active) active.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-15% 0px -75% 0px', threshold: 0 });
+
+    sections.forEach(sec => observer.observe(sec));
+
+    // --- クリックでスムーズスクロール ---
+    navItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault();
+            const sec = document.getElementById(item.dataset.section);
+            if (sec) {
+                const offset = 72;
+                const top = sec.getBoundingClientRect().top + window.scrollY - offset;
+                window.scrollTo({ top, behavior: 'smooth' });
+            }
+            closeSidebar();
+        });
+    });
+
+    // --- モバイル: サイドバー開閉 ---
+    function openSidebar() {
+        sidebar.classList.add('open');
+        overlay.classList.add('visible');
+    }
+    function closeSidebar() {
+        sidebar.classList.remove('open');
+        overlay.classList.remove('visible');
+    }
+    toggle.addEventListener('click', () => {
+        sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
+    });
+    overlay.addEventListener('click', closeSidebar);
+}
 
 // =============================================================================
 // データ読込
@@ -42,12 +96,12 @@ async function loadData() {
         console.error('データ読込エラー:', e);
         document.getElementById('loading-overlay').innerHTML = `
             <div class="loader">
-                <p style="color:#ef4444;font-size:1rem;">⚠ データの読込に失敗しました</p>
-                <p style="color:#9ca3af;font-size:0.85rem;margin-top:8px;">
+                <p style="color:#E74C3C;font-size:1rem;">⚠ データの読込に失敗しました</p>
+                <p style="color:#555770;font-size:0.85rem;margin-top:8px;">
                     data/analysis_results.json が見つかりません。<br>
                     以下のコマンドを実行してデータを生成してください:
                 </p>
-                <pre style="background:#1c1f2e;padding:12px;border-radius:8px;margin-top:12px;color:#a78bfa;font-size:0.82rem;text-align:left;">
+                <pre style="background:#F0F4F8;padding:12px;border-radius:8px;margin-top:12px;color:#27AE60;font-size:0.82rem;text-align:left;border:1px solid #E8ECF0;">
 python src/generate_sample.py
 python src/analyze.py</pre>
             </div>`;
@@ -84,6 +138,7 @@ async function init() {
     renderCandidates(d);
 
     renderQuality(d);
+    initSidebar();
 
     // ローディング非表示
     document.getElementById('loading-overlay').classList.add('hidden');
@@ -204,11 +259,22 @@ function updateThemeChart() {
         series.push({
             name: theme,
             type: 'line',
-            smooth: true,
+            smooth: 0.4,
             symbol: 'circle',
-            symbolSize: 4,
+            symbolSize: 5,
+            showSymbol: false,
+            emphasis: { scale: true, focus: 'series' },
             lineStyle: { width: 2.5, color },
-            itemStyle: { color },
+            itemStyle: { color, borderWidth: 2, borderColor: '#fff' },
+            areaStyle: {
+                color: {
+                    type: 'linear', x: 0, y: 0, x2: 0, y2: 1,
+                    colorStops: [
+                        { offset: 0, color: color + '28' },
+                        { offset: 1, color: color + '02' },
+                    ],
+                },
+            },
             data: filtered.map(i => (i.scores[theme] || 0)),
         });
     }
@@ -217,29 +283,35 @@ function updateThemeChart() {
         backgroundColor: 'transparent',
         tooltip: {
             trigger: 'axis',
-            backgroundColor: '#1c1f2e',
-            borderColor: '#333',
-            textStyle: { color: '#e8eaed', fontSize: 12 },
+            backgroundColor: '#FFFFFF',
+            borderColor: '#D0DCE4',
+            borderWidth: 1,
+            padding: [10, 14],
+            textStyle: { color: '#1C2B36', fontSize: 12, fontFamily: 'Noto Sans JP, Inter, sans-serif' },
+            axisPointer: {
+                type: 'cross',
+                label: { backgroundColor: '#00B050' },
+                lineStyle: { color: '#00B050', width: 1, type: 'dashed' },
+            },
         },
-        legend: {
-            show: false,
-        },
-        grid: {
-            left: 50, right: 20, top: 20, bottom: 40,
-        },
+        legend: { show: false },
+        grid: { left: 52, right: 22, top: 20, bottom: 44, containLabel: false },
         xAxis: {
             type: 'category',
             data: months,
-            axisLine: { lineStyle: { color: '#333' } },
-            axisLabel: { color: '#6b7280', fontSize: 11 },
+            boundaryGap: false,
+            axisLine: { lineStyle: { color: '#D0DCE4' } },
+            axisTick: { show: false },
+            axisLabel: { color: '#7D94A0', fontSize: 11, margin: 10 },
         },
         yAxis: {
             type: 'value',
             name: 'テーマ強度',
-            nameTextStyle: { color: '#6b7280', fontSize: 11 },
+            nameTextStyle: { color: '#7D94A0', fontSize: 10, padding: [0, 0, 4, 0] },
             axisLine: { show: false },
-            splitLine: { lineStyle: { color: 'rgba(255,255,255,0.05)' } },
-            axisLabel: { color: '#6b7280', fontSize: 11 },
+            axisTick: { show: false },
+            splitLine: { lineStyle: { color: '#EBF0F4', type: 'dashed' } },
+            axisLabel: { color: '#7D94A0', fontSize: 10 },
         },
         series,
     };
@@ -342,9 +414,9 @@ function showStockDetail(stockName, d) {
     // 詳細情報
     let html = `<div class="detail-stock-name">${stockName}</div>`;
     html += `<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px;font-size:0.82rem;">
-        <div><span style="color:#6b7280">登場回数:</span> ${analysis.total_appearances || 0}回</div>
-        <div><span style="color:#6b7280">平均順位:</span> ${analysis.avg_rank || '-'}位</div>
-        <div><span style="color:#6b7280">連続月数:</span> ${analysis.consecutive_months || 0}ヶ月</div>
+        <div><span style="color:#8E8EA0">登場回数:</span> ${analysis.total_appearances || 0}回</div>
+        <div><span style="color:#8E8EA0">平均順位:</span> ${analysis.avg_rank || '-'}位</div>
+        <div><span style="color:#8E8EA0">連続月数:</span> ${analysis.consecutive_months || 0}ヶ月</div>
     </div>`;
 
     // ミニチャート
@@ -373,8 +445,8 @@ function showStockDetail(stockName, d) {
             xAxis: {
                 type: 'category',
                 data: history.map(h => h.month),
-                axisLabel: { color: '#6b7280', fontSize: 10, rotate: 45 },
-                axisLine: { lineStyle: { color: '#333' } },
+                axisLabel: { color: '#8E8EA0', fontSize: 10, rotate: 45 },
+                axisLine: { lineStyle: { color: '#E8ECF0' } },
             },
             yAxis: {
                 type: 'value',
@@ -382,32 +454,32 @@ function showStockDetail(stockName, d) {
                 min: 1,
                 max: 10,
                 name: '順位',
-                nameTextStyle: { color: '#6b7280', fontSize: 10 },
+                nameTextStyle: { color: '#8E8EA0', fontSize: 10 },
                 axisLine: { show: false },
-                splitLine: { lineStyle: { color: 'rgba(255,255,255,0.05)' } },
-                axisLabel: { color: '#6b7280', fontSize: 10 },
+                splitLine: { lineStyle: { color: '#F0F4F8' } },
+                axisLabel: { color: '#8E8EA0', fontSize: 10 },
             },
             series: [{
                 type: 'line',
                 smooth: true,
                 data: history.map(h => h.rank),
-                lineStyle: { color: '#6366f1', width: 2 },
-                itemStyle: { color: '#6366f1' },
+                lineStyle: { color: '#27AE60', width: 2 },
+                itemStyle: { color: '#27AE60' },
                 areaStyle: {
                     color: {
                         type: 'linear', x: 0, y: 0, x2: 0, y2: 1,
                         colorStops: [
-                            { offset: 0, color: 'rgba(99,102,241,0.3)' },
-                            { offset: 1, color: 'rgba(99,102,241,0.02)' },
+                            { offset: 0, color: 'rgba(39,174,96,0.25)' },
+                            { offset: 1, color: 'rgba(39,174,96,0.02)' },
                         ],
                     },
                 },
             }],
             tooltip: {
                 trigger: 'axis',
-                backgroundColor: '#1c1f2e',
-                borderColor: '#333',
-                textStyle: { color: '#e8eaed', fontSize: 11 },
+                backgroundColor: '#FFFFFF',
+                borderColor: '#E8ECF0',
+                textStyle: { color: '#1a1a2e', fontSize: 11 },
                 formatter: p => `${p[0].name}<br/>順位: ${p[0].value}位`,
             },
         });
@@ -476,9 +548,9 @@ function renderPolicy(d) {
                 return `<div class="${cls}" style="padding:4px 0;font-size:0.85rem;">
                     ${arrow} ${c.theme}: ${c.prevCount} → ${c.currCount} (${c.diff > 0 ? '+' : ''}${c.diff})
                 </div>`;
-            }).join('') || '<span style="color:#6b7280;font-size:0.85rem;">変化なし</span>';
+            }).join('') || '<span style="color:#8E8EA0;font-size:0.85rem;">変化なし</span>';
         } else {
-            changesEl.innerHTML = '<span style="color:#6b7280;font-size:0.85rem;">前月データなし</span>';
+            changesEl.innerHTML = '<span style="color:#8E8EA0;font-size:0.85rem;">前月データなし</span>';
         }
 
         // 売買シグナル
@@ -502,7 +574,7 @@ function renderPolicy(d) {
                 </div>
             </div>`;
         }
-        signalsEl.innerHTML = sigHtml || '<span style="color:#6b7280;font-size:0.85rem;">シグナルなし</span>';
+        signalsEl.innerHTML = sigHtml || '<span style="color:#8E8EA0;font-size:0.85rem;">シグナルなし</span>';
     };
 
     // ナビゲーション
@@ -553,12 +625,12 @@ function renderCandidates(d) {
             cycle_tendency: '入替サイクル',
         };
         const breakdownColors = {
-            theme_match: '#6366f1',
-            past_frequency: '#8b5cf6',
-            description_sim: '#06b6d4',
-            sector_trend: '#10b981',
-            signal_match: '#f59e0b',
-            cycle_tendency: '#ec4899',
+            theme_match: '#27AE60',
+            past_frequency: '#2980B9',
+            description_sim: '#17A2B8',
+            sector_trend: '#1ABC9C',
+            signal_match: '#F39C12',
+            cycle_tendency: '#E91E63',
         };
 
         const breakdownHTML = Object.entries(breakdownLabels).map(([key, label]) => {
@@ -593,9 +665,9 @@ function renderCandidates(d) {
                 <div class="candidate-confidence ${confClass}">${c.confidence}</div>
             </div>
             <div class="candidate-detail">
-                <h4 style="font-size:0.85rem;color:#9ca3af;margin-bottom:10px;">スコア内訳</h4>
+                <h4 style="font-size:0.85rem;color:#8E8EA0;margin-bottom:10px;">スコア内訳</h4>
                 <div class="breakdown-grid">${breakdownHTML}</div>
-                <h4 style="font-size:0.85rem;color:#9ca3af;margin-bottom:8px;">根拠</h4>
+                <h4 style="font-size:0.85rem;color:#8E8EA0;margin-bottom:8px;">根拠</h4>
                 <ul class="explanations-list">${explanations}</ul>
             </div>
         </div>`;
@@ -676,8 +748,8 @@ function renderQuality(d) {
             <td>${r.month || '-'}</td>
             <td class="${statusClass}">${statusText}</td>
             <td style="font-size:0.78rem">${extracted}</td>
-            <td style="font-size:0.78rem;${missing !== '-' ? 'color:#f59e0b' : ''}">${missing}</td>
-            <td style="font-size:0.78rem;${issues !== '-' ? 'color:#ef4444' : ''}">${issues}</td>
+            <td style="font-size:0.78rem;${missing !== '-' ? 'color:#E67E22' : ''}">${missing}</td>
+            <td style="font-size:0.78rem;${issues !== '-' ? 'color:#E74C3C' : ''}">${issues}</td>
         </tr>`;
     }).join('');
 }
