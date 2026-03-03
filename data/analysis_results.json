@@ -1,7 +1,7 @@
 {
   "fund_name": "情報エレクトロニクスファンド",
   "management_company": "野村アセットマネジメント",
-  "analyzed_at": "2026-02-24T19:04:01.877234",
+  "analyzed_at": "2026-03-04T00:31:28.462969",
   "data_period": {
     "start": "2020-01",
     "end": "2025-12",
@@ -1551,46 +1551,46 @@
         "direction": "stable"
       }
     ],
-    "コンテンツ・エンタメ×テクノロジー": [
+    "半導体": [
       {
         "month": "2020-01",
-        "value": 14.29,
-        "ma": 14.29,
+        "value": 42.86,
+        "ma": 42.86,
         "delta": 0,
         "direction": "stable"
       },
       {
         "month": "2020-02",
-        "value": 0.0,
-        "ma": 7.14,
+        "value": 28.57,
+        "ma": 35.72,
         "delta": -7.14,
         "direction": "down"
       },
       {
         "month": "2020-03",
         "value": 0.0,
-        "ma": 4.76,
-        "delta": -2.38,
+        "ma": 23.81,
+        "delta": -11.91,
         "direction": "down"
       },
       {
         "month": "2020-04",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": -4.76,
+        "value": 25.0,
+        "ma": 17.86,
+        "delta": -5.95,
         "direction": "down"
       },
       {
         "month": "2020-05",
         "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "ma": 8.33,
+        "delta": -9.52,
+        "direction": "down"
       },
       {
         "month": "2020-06",
         "value": 0.0,
-        "ma": 0.0,
+        "ma": 8.33,
         "delta": 0.0,
         "direction": "stable"
       },
@@ -1598,969 +1598,463 @@
         "month": "2020-07",
         "value": 20.0,
         "ma": 6.67,
-        "delta": 6.67,
-        "direction": "up"
+        "delta": -1.67,
+        "direction": "down"
       },
       {
         "month": "2020-08",
-        "value": 0.0,
-        "ma": 6.67,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 25.0,
+        "ma": 15.0,
+        "delta": 8.33,
+        "direction": "up"
       },
       {
         "month": "2020-09",
-        "value": 0.0,
-        "ma": 6.67,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 25.0,
+        "ma": 23.33,
+        "delta": 8.33,
+        "direction": "up"
       },
       {
         "month": "2020-10",
         "value": 11.11,
-        "ma": 3.7,
+        "ma": 20.37,
         "delta": -2.96,
         "direction": "down"
       },
       {
         "month": "2020-11",
         "value": 0.0,
-        "ma": 3.7,
-        "delta": 0.0,
-        "direction": "stable"
+        "ma": 12.04,
+        "delta": -8.33,
+        "direction": "down"
       },
       {
         "month": "2020-12",
-        "value": 12.5,
-        "ma": 7.87,
-        "delta": 4.17,
-        "direction": "up"
+        "value": 0.0,
+        "ma": 3.7,
+        "delta": -8.33,
+        "direction": "down"
       },
       {
         "month": "2021-01",
         "value": 12.5,
-        "ma": 8.33,
+        "ma": 4.17,
         "delta": 0.46,
         "direction": "stable"
       },
       {
         "month": "2021-02",
-        "value": 14.29,
-        "ma": 13.1,
-        "delta": 4.76,
-        "direction": "up"
-      },
-      {
-        "month": "2021-03",
         "value": 0.0,
-        "ma": 8.93,
-        "delta": -4.17,
-        "direction": "down"
-      },
-      {
-        "month": "2021-04",
-        "value": 0.0,
-        "ma": 4.76,
-        "delta": -4.17,
-        "direction": "down"
-      },
-      {
-        "month": "2021-05",
-        "value": 12.5,
         "ma": 4.17,
-        "delta": -0.6,
-        "direction": "down"
-      },
-      {
-        "month": "2021-06",
-        "value": 12.5,
-        "ma": 8.33,
-        "delta": 4.17,
-        "direction": "up"
-      },
-      {
-        "month": "2021-07",
-        "value": 16.67,
-        "ma": 13.89,
-        "delta": 5.56,
-        "direction": "up"
-      },
-      {
-        "month": "2021-08",
-        "value": 0.0,
-        "ma": 9.72,
-        "delta": -4.17,
-        "direction": "down"
-      },
-      {
-        "month": "2021-09",
-        "value": 0.0,
-        "ma": 5.56,
-        "delta": -4.17,
-        "direction": "down"
-      },
-      {
-        "month": "2021-10",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": -5.56,
-        "direction": "down"
-      },
-      {
-        "month": "2021-11",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2021-12",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2022-01",
-        "value": 9.09,
-        "ma": 3.03,
-        "delta": 3.03,
-        "direction": "up"
-      },
-      {
-        "month": "2022-02",
-        "value": 14.29,
-        "ma": 7.79,
-        "delta": 4.76,
-        "direction": "up"
-      },
-      {
-        "month": "2022-03",
-        "value": 0.0,
-        "ma": 7.79,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2022-04",
-        "value": 7.14,
-        "ma": 7.14,
-        "delta": -0.65,
-        "direction": "down"
-      },
-      {
-        "month": "2022-05",
-        "value": 0.0,
-        "ma": 2.38,
-        "delta": -4.76,
-        "direction": "down"
-      },
-      {
-        "month": "2022-06",
-        "value": 0.0,
-        "ma": 2.38,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2022-07",
-        "value": 5.88,
-        "ma": 1.96,
-        "delta": -0.42,
-        "direction": "stable"
-      },
-      {
-        "month": "2022-08",
-        "value": 12.96,
-        "ma": 6.28,
-        "delta": 4.32,
-        "direction": "up"
-      },
-      {
-        "month": "2022-09",
-        "value": 14.52,
-        "ma": 11.12,
-        "delta": 4.84,
-        "direction": "up"
-      },
-      {
-        "month": "2022-10",
-        "value": 9.86,
-        "ma": 12.45,
-        "delta": 1.33,
-        "direction": "up"
-      },
-      {
-        "month": "2022-11",
-        "value": 10.29,
-        "ma": 11.56,
-        "delta": -0.89,
-        "direction": "down"
-      },
-      {
-        "month": "2022-12",
-        "value": 12.07,
-        "ma": 10.74,
-        "delta": -0.82,
-        "direction": "down"
-      },
-      {
-        "month": "2023-01",
-        "value": 14.81,
-        "ma": 12.39,
-        "delta": 1.65,
-        "direction": "up"
-      },
-      {
-        "month": "2023-02",
-        "value": 10.94,
-        "ma": 12.61,
-        "delta": 0.22,
-        "direction": "stable"
-      },
-      {
-        "month": "2023-03",
-        "value": 4.62,
-        "ma": 10.12,
-        "delta": -2.48,
-        "direction": "down"
-      },
-      {
-        "month": "2023-04",
-        "value": 4.62,
-        "ma": 6.73,
-        "delta": -3.4,
-        "direction": "down"
-      },
-      {
-        "month": "2023-05",
-        "value": 4.55,
-        "ma": 4.6,
-        "delta": -2.13,
-        "direction": "down"
-      },
-      {
-        "month": "2023-06",
-        "value": 5.45,
-        "ma": 4.87,
-        "delta": 0.28,
-        "direction": "stable"
-      },
-      {
-        "month": "2023-07",
-        "value": 5.88,
-        "ma": 5.29,
-        "delta": 0.42,
-        "direction": "stable"
-      },
-      {
-        "month": "2023-08",
-        "value": 7.41,
-        "ma": 6.25,
-        "delta": 0.95,
-        "direction": "up"
-      },
-      {
-        "month": "2023-09",
-        "value": 5.77,
-        "ma": 6.35,
-        "delta": 0.11,
-        "direction": "stable"
-      },
-      {
-        "month": "2023-10",
-        "value": 5.56,
-        "ma": 6.25,
-        "delta": -0.11,
-        "direction": "stable"
-      },
-      {
-        "month": "2023-11",
-        "value": 5.88,
-        "ma": 5.74,
-        "delta": -0.51,
-        "direction": "down"
-      },
-      {
-        "month": "2023-12",
-        "value": 6.25,
-        "ma": 5.9,
-        "delta": 0.16,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-01",
-        "value": 6.38,
-        "ma": 6.17,
-        "delta": 0.27,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-02",
-        "value": 9.62,
-        "ma": 7.42,
-        "delta": 1.25,
-        "direction": "up"
-      },
-      {
-        "month": "2024-03",
-        "value": 4.35,
-        "ma": 6.78,
-        "delta": -0.63,
-        "direction": "down"
-      },
-      {
-        "month": "2024-04",
-        "value": 4.65,
-        "ma": 6.21,
-        "delta": -0.58,
-        "direction": "down"
-      },
-      {
-        "month": "2024-05",
-        "value": 10.64,
-        "ma": 6.55,
-        "delta": 0.34,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-06",
-        "value": 11.9,
-        "ma": 9.06,
-        "delta": 2.52,
-        "direction": "up"
-      },
-      {
-        "month": "2024-07",
-        "value": 12.82,
-        "ma": 11.79,
-        "delta": 2.72,
-        "direction": "up"
-      },
-      {
-        "month": "2024-08",
-        "value": 10.71,
-        "ma": 11.81,
-        "delta": 0.02,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-09",
-        "value": 13.16,
-        "ma": 12.23,
-        "delta": 0.42,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-10",
-        "value": 2.63,
-        "ma": 8.83,
-        "delta": -3.4,
-        "direction": "down"
-      },
-      {
-        "month": "2024-11",
-        "value": 11.36,
-        "ma": 9.05,
-        "delta": 0.22,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-12",
-        "value": 5.56,
-        "ma": 6.52,
-        "delta": -2.53,
-        "direction": "down"
-      },
-      {
-        "month": "2025-01",
-        "value": 7.69,
-        "ma": 8.2,
-        "delta": 1.69,
-        "direction": "up"
-      },
-      {
-        "month": "2025-02",
-        "value": 12.5,
-        "ma": 8.58,
-        "delta": 0.38,
-        "direction": "stable"
-      },
-      {
-        "month": "2025-03",
-        "value": 11.63,
-        "ma": 10.61,
-        "delta": 2.02,
-        "direction": "up"
-      },
-      {
-        "month": "2025-04",
-        "value": 18.6,
-        "ma": 14.24,
-        "delta": 3.64,
-        "direction": "up"
-      },
-      {
-        "month": "2025-05",
-        "value": 7.14,
-        "ma": 12.46,
-        "delta": -1.79,
-        "direction": "down"
-      },
-      {
-        "month": "2025-06",
-        "value": 10.71,
-        "ma": 12.15,
-        "delta": -0.31,
-        "direction": "stable"
-      },
-      {
-        "month": "2025-07",
-        "value": 7.32,
-        "ma": 8.39,
-        "delta": -3.76,
-        "direction": "down"
-      },
-      {
-        "month": "2025-08",
-        "value": 13.95,
-        "ma": 10.66,
-        "delta": 2.27,
-        "direction": "up"
-      },
-      {
-        "month": "2025-09",
-        "value": 6.98,
-        "ma": 9.42,
-        "delta": -1.24,
-        "direction": "down"
-      },
-      {
-        "month": "2025-10",
-        "value": 6.38,
-        "ma": 9.1,
-        "delta": -0.31,
-        "direction": "stable"
-      },
-      {
-        "month": "2025-11",
-        "value": 13.95,
-        "ma": 9.1,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2025-12",
-        "value": 16.28,
-        "ma": 12.2,
-        "delta": 3.1,
-        "direction": "up"
-      }
-    ],
-    "セキュリティ・防衛": [
-      {
-        "month": "2020-01",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-02",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-03",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-04",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-05",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-06",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-07",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-08",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-09",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-10",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-11",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-12",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2021-01",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2021-02",
-        "value": 0.0,
-        "ma": 0.0,
         "delta": 0.0,
         "direction": "stable"
       },
       {
         "month": "2021-03",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 40.0,
+        "ma": 17.5,
+        "delta": 13.33,
+        "direction": "up"
       },
       {
         "month": "2021-04",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 20.0,
+        "ma": 20.0,
+        "delta": 2.5,
+        "direction": "up"
       },
       {
         "month": "2021-05",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 25.0,
+        "ma": 28.33,
+        "delta": 8.33,
+        "direction": "up"
       },
       {
         "month": "2021-06",
         "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "ma": 15.0,
+        "delta": -13.33,
+        "direction": "down"
       },
       {
         "month": "2021-07",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 8.33,
+        "ma": 11.11,
+        "delta": -3.89,
+        "direction": "down"
       },
       {
         "month": "2021-08",
         "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "ma": 2.78,
+        "delta": -8.33,
+        "direction": "down"
       },
       {
         "month": "2021-09",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 25.0,
+        "ma": 11.11,
+        "delta": 8.33,
+        "direction": "up"
       },
       {
         "month": "2021-10",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 12.5,
+        "ma": 12.5,
+        "delta": 1.39,
+        "direction": "up"
       },
       {
         "month": "2021-11",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 27.27,
+        "ma": 21.59,
+        "delta": 9.09,
+        "direction": "up"
       },
       {
         "month": "2021-12",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 28.57,
+        "ma": 22.78,
+        "delta": 1.19,
+        "direction": "up"
       },
       {
         "month": "2022-01",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 18.18,
+        "ma": 24.67,
+        "delta": 1.89,
+        "direction": "up"
       },
       {
         "month": "2022-02",
         "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "ma": 15.58,
+        "delta": -9.09,
+        "direction": "down"
       },
       {
         "month": "2022-03",
-        "value": 0.0,
-        "ma": 0.0,
+        "value": 28.57,
+        "ma": 15.58,
         "delta": 0.0,
         "direction": "stable"
       },
       {
         "month": "2022-04",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 7.14,
+        "ma": 11.9,
+        "delta": -3.68,
+        "direction": "down"
       },
       {
         "month": "2022-05",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 35.29,
+        "ma": 23.67,
+        "delta": 11.76,
+        "direction": "up"
       },
       {
         "month": "2022-06",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 35.29,
+        "ma": 25.91,
+        "delta": 2.24,
+        "direction": "up"
       },
       {
         "month": "2022-07",
-        "value": 5.88,
-        "ma": 1.96,
-        "delta": 1.96,
+        "value": 17.65,
+        "ma": 29.41,
+        "delta": 3.5,
         "direction": "up"
       },
       {
         "month": "2022-08",
-        "value": 0.0,
-        "ma": 1.96,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2022-09",
-        "value": 0.0,
-        "ma": 1.96,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2022-10",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": -1.96,
+        "value": 31.48,
+        "ma": 28.14,
+        "delta": -1.27,
         "direction": "down"
       },
       {
+        "month": "2022-09",
+        "value": 32.26,
+        "ma": 27.13,
+        "delta": -1.01,
+        "direction": "down"
+      },
+      {
+        "month": "2022-10",
+        "value": 42.25,
+        "ma": 35.33,
+        "delta": 8.2,
+        "direction": "up"
+      },
+      {
         "month": "2022-11",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 45.59,
+        "ma": 40.03,
+        "delta": 4.7,
+        "direction": "up"
       },
       {
         "month": "2022-12",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
+        "value": 32.76,
+        "ma": 40.2,
+        "delta": 0.17,
         "direction": "stable"
       },
       {
         "month": "2023-01",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 29.63,
+        "ma": 35.99,
+        "delta": -4.21,
+        "direction": "down"
       },
       {
         "month": "2023-02",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 37.5,
+        "ma": 33.3,
+        "delta": -2.7,
+        "direction": "down"
       },
       {
         "month": "2023-03",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 40.0,
+        "ma": 35.71,
+        "delta": 2.41,
+        "direction": "up"
       },
       {
         "month": "2023-04",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 38.46,
+        "ma": 38.65,
+        "delta": 2.94,
+        "direction": "up"
       },
       {
         "month": "2023-05",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 45.45,
+        "ma": 41.3,
+        "delta": 2.65,
+        "direction": "up"
       },
       {
         "month": "2023-06",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 43.64,
+        "ma": 42.52,
+        "delta": 1.21,
+        "direction": "up"
       },
       {
         "month": "2023-07",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 45.1,
+        "ma": 44.73,
+        "delta": 2.21,
+        "direction": "up"
       },
       {
         "month": "2023-08",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 38.89,
+        "ma": 42.54,
+        "delta": -2.19,
+        "direction": "down"
       },
       {
         "month": "2023-09",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 55.77,
+        "ma": 46.59,
+        "delta": 4.04,
+        "direction": "up"
       },
       {
         "month": "2023-10",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 55.56,
+        "ma": 50.07,
+        "delta": 3.49,
+        "direction": "up"
       },
       {
         "month": "2023-11",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 49.02,
+        "ma": 53.45,
+        "delta": 3.38,
+        "direction": "up"
       },
       {
         "month": "2023-12",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 50.0,
+        "ma": 51.53,
+        "delta": -1.92,
+        "direction": "down"
       },
       {
         "month": "2024-01",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 48.94,
+        "ma": 49.32,
+        "delta": -2.21,
+        "direction": "down"
       },
       {
         "month": "2024-02",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
+        "value": 50.0,
+        "ma": 49.65,
+        "delta": 0.33,
         "direction": "stable"
       },
       {
         "month": "2024-03",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-04",
-        "value": 2.33,
-        "ma": 0.78,
-        "delta": 0.78,
+        "value": 54.35,
+        "ma": 51.1,
+        "delta": 1.45,
         "direction": "up"
       },
       {
-        "month": "2024-05",
-        "value": 0.0,
-        "ma": 0.78,
-        "delta": 0.0,
+        "month": "2024-04",
+        "value": 48.84,
+        "ma": 51.06,
+        "delta": -0.03,
         "direction": "stable"
+      },
+      {
+        "month": "2024-05",
+        "value": 36.17,
+        "ma": 46.45,
+        "delta": -4.61,
+        "direction": "down"
       },
       {
         "month": "2024-06",
-        "value": 0.0,
-        "ma": 0.78,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 35.71,
+        "ma": 40.24,
+        "delta": -6.21,
+        "direction": "down"
       },
       {
         "month": "2024-07",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": -0.78,
+        "value": 28.21,
+        "ma": 33.36,
+        "delta": -6.88,
         "direction": "down"
       },
       {
         "month": "2024-08",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 23.21,
+        "ma": 29.04,
+        "delta": -4.32,
+        "direction": "down"
       },
       {
         "month": "2024-09",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 5.26,
+        "ma": 18.89,
+        "delta": -10.15,
+        "direction": "down"
       },
       {
         "month": "2024-10",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 21.05,
+        "ma": 16.51,
+        "delta": -2.39,
+        "direction": "down"
       },
       {
         "month": "2024-11",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 13.64,
+        "ma": 13.32,
+        "delta": -3.19,
+        "direction": "down"
       },
       {
         "month": "2024-12",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 19.44,
+        "ma": 18.04,
+        "delta": 4.73,
+        "direction": "up"
       },
       {
         "month": "2025-01",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
+        "value": 21.15,
+        "ma": 18.08,
+        "delta": 0.03,
         "direction": "stable"
       },
       {
         "month": "2025-02",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
+        "value": 12.5,
+        "ma": 17.7,
+        "delta": -0.38,
         "direction": "stable"
       },
       {
         "month": "2025-03",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 16.28,
+        "ma": 16.64,
+        "delta": -1.05,
+        "direction": "down"
       },
       {
         "month": "2025-04",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 2.33,
+        "ma": 10.37,
+        "delta": -6.27,
+        "direction": "down"
       },
       {
         "month": "2025-05",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 16.67,
+        "ma": 11.76,
+        "delta": 1.39,
+        "direction": "up"
       },
       {
         "month": "2025-06",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 21.43,
+        "ma": 13.48,
+        "delta": 1.72,
+        "direction": "up"
       },
       {
         "month": "2025-07",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 19.51,
+        "ma": 19.2,
+        "delta": 5.73,
+        "direction": "up"
       },
       {
         "month": "2025-08",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2025-09",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2025-10",
-        "value": 4.26,
-        "ma": 1.42,
+        "value": 20.93,
+        "ma": 20.62,
         "delta": 1.42,
         "direction": "up"
       },
       {
+        "month": "2025-09",
+        "value": 23.26,
+        "ma": 21.23,
+        "delta": 0.61,
+        "direction": "up"
+      },
+      {
+        "month": "2025-10",
+        "value": 17.02,
+        "ma": 20.4,
+        "delta": -0.83,
+        "direction": "down"
+      },
+      {
         "month": "2025-11",
-        "value": 2.33,
-        "ma": 2.2,
+        "value": 23.26,
+        "ma": 21.18,
         "delta": 0.78,
         "direction": "up"
       },
       {
         "month": "2025-12",
-        "value": 0.0,
-        "ma": 2.2,
-        "delta": 0.0,
-        "direction": "stable"
+        "value": 32.56,
+        "ma": 24.28,
+        "delta": 3.1,
+        "direction": "up"
       }
     ],
     "電子部品・デバイス": [
@@ -3069,512 +2563,6 @@
         "direction": "up"
       }
     ],
-    "AI・データセンター": [
-      {
-        "month": "2020-01",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-02",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-03",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-04",
-        "value": 0.0,
-        "ma": 0.0,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-05",
-        "value": 20.0,
-        "ma": 6.67,
-        "delta": 6.67,
-        "direction": "up"
-      },
-      {
-        "month": "2020-06",
-        "value": 16.67,
-        "ma": 12.22,
-        "delta": 5.56,
-        "direction": "up"
-      },
-      {
-        "month": "2020-07",
-        "value": 10.0,
-        "ma": 15.56,
-        "delta": 3.33,
-        "direction": "up"
-      },
-      {
-        "month": "2020-08",
-        "value": 12.5,
-        "ma": 13.06,
-        "delta": -2.5,
-        "direction": "down"
-      },
-      {
-        "month": "2020-09",
-        "value": 12.5,
-        "ma": 11.67,
-        "delta": -1.39,
-        "direction": "down"
-      },
-      {
-        "month": "2020-10",
-        "value": 11.11,
-        "ma": 12.04,
-        "delta": 0.37,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-11",
-        "value": 12.5,
-        "ma": 12.04,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-12",
-        "value": 12.5,
-        "ma": 12.04,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2021-01",
-        "value": 12.5,
-        "ma": 12.5,
-        "delta": 0.46,
-        "direction": "stable"
-      },
-      {
-        "month": "2021-02",
-        "value": 14.29,
-        "ma": 13.1,
-        "delta": 0.6,
-        "direction": "up"
-      },
-      {
-        "month": "2021-03",
-        "value": 10.0,
-        "ma": 12.26,
-        "delta": -0.83,
-        "direction": "down"
-      },
-      {
-        "month": "2021-04",
-        "value": 20.0,
-        "ma": 14.76,
-        "delta": 2.5,
-        "direction": "up"
-      },
-      {
-        "month": "2021-05",
-        "value": 12.5,
-        "ma": 14.17,
-        "delta": -0.6,
-        "direction": "down"
-      },
-      {
-        "month": "2021-06",
-        "value": 12.5,
-        "ma": 15.0,
-        "delta": 0.83,
-        "direction": "up"
-      },
-      {
-        "month": "2021-07",
-        "value": 8.33,
-        "ma": 11.11,
-        "delta": -3.89,
-        "direction": "down"
-      },
-      {
-        "month": "2021-08",
-        "value": 11.11,
-        "ma": 10.65,
-        "delta": -0.46,
-        "direction": "stable"
-      },
-      {
-        "month": "2021-09",
-        "value": 12.5,
-        "ma": 10.65,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2021-10",
-        "value": 12.5,
-        "ma": 12.04,
-        "delta": 1.39,
-        "direction": "up"
-      },
-      {
-        "month": "2021-11",
-        "value": 9.09,
-        "ma": 11.36,
-        "delta": -0.67,
-        "direction": "down"
-      },
-      {
-        "month": "2021-12",
-        "value": 7.14,
-        "ma": 9.58,
-        "delta": -1.79,
-        "direction": "down"
-      },
-      {
-        "month": "2022-01",
-        "value": 9.09,
-        "ma": 8.44,
-        "delta": -1.14,
-        "direction": "down"
-      },
-      {
-        "month": "2022-02",
-        "value": 14.29,
-        "ma": 10.17,
-        "delta": 1.73,
-        "direction": "up"
-      },
-      {
-        "month": "2022-03",
-        "value": 7.14,
-        "ma": 10.17,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2022-04",
-        "value": 7.14,
-        "ma": 9.52,
-        "delta": -0.65,
-        "direction": "down"
-      },
-      {
-        "month": "2022-05",
-        "value": 5.88,
-        "ma": 6.72,
-        "delta": -2.8,
-        "direction": "down"
-      },
-      {
-        "month": "2022-06",
-        "value": 17.65,
-        "ma": 10.22,
-        "delta": 3.5,
-        "direction": "up"
-      },
-      {
-        "month": "2022-07",
-        "value": 5.88,
-        "ma": 9.8,
-        "delta": -0.42,
-        "direction": "stable"
-      },
-      {
-        "month": "2022-08",
-        "value": 1.85,
-        "ma": 8.46,
-        "delta": -1.34,
-        "direction": "down"
-      },
-      {
-        "month": "2022-09",
-        "value": 1.61,
-        "ma": 3.11,
-        "delta": -5.35,
-        "direction": "down"
-      },
-      {
-        "month": "2022-10",
-        "value": 1.41,
-        "ma": 1.62,
-        "delta": -1.49,
-        "direction": "down"
-      },
-      {
-        "month": "2022-11",
-        "value": 4.41,
-        "ma": 2.48,
-        "delta": 0.85,
-        "direction": "up"
-      },
-      {
-        "month": "2022-12",
-        "value": 1.72,
-        "ma": 2.51,
-        "delta": 0.04,
-        "direction": "stable"
-      },
-      {
-        "month": "2023-01",
-        "value": 1.85,
-        "ma": 2.66,
-        "delta": 0.15,
-        "direction": "stable"
-      },
-      {
-        "month": "2023-02",
-        "value": 7.81,
-        "ma": 3.79,
-        "delta": 1.13,
-        "direction": "up"
-      },
-      {
-        "month": "2023-03",
-        "value": 13.85,
-        "ma": 7.84,
-        "delta": 4.04,
-        "direction": "up"
-      },
-      {
-        "month": "2023-04",
-        "value": 9.23,
-        "ma": 10.3,
-        "delta": 2.46,
-        "direction": "up"
-      },
-      {
-        "month": "2023-05",
-        "value": 13.64,
-        "ma": 12.24,
-        "delta": 1.94,
-        "direction": "up"
-      },
-      {
-        "month": "2023-06",
-        "value": 9.09,
-        "ma": 10.65,
-        "delta": -1.59,
-        "direction": "down"
-      },
-      {
-        "month": "2023-07",
-        "value": 11.76,
-        "ma": 11.5,
-        "delta": 0.84,
-        "direction": "up"
-      },
-      {
-        "month": "2023-08",
-        "value": 11.11,
-        "ma": 10.65,
-        "delta": -0.84,
-        "direction": "down"
-      },
-      {
-        "month": "2023-09",
-        "value": 11.54,
-        "ma": 11.47,
-        "delta": 0.82,
-        "direction": "up"
-      },
-      {
-        "month": "2023-10",
-        "value": 11.11,
-        "ma": 11.25,
-        "delta": -0.22,
-        "direction": "stable"
-      },
-      {
-        "month": "2023-11",
-        "value": 11.76,
-        "ma": 11.47,
-        "delta": 0.22,
-        "direction": "stable"
-      },
-      {
-        "month": "2023-12",
-        "value": 12.5,
-        "ma": 11.79,
-        "delta": 0.32,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-01",
-        "value": 10.64,
-        "ma": 11.63,
-        "delta": -0.16,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-02",
-        "value": 15.38,
-        "ma": 12.84,
-        "delta": 1.21,
-        "direction": "up"
-      },
-      {
-        "month": "2024-03",
-        "value": 13.04,
-        "ma": 13.02,
-        "delta": 0.18,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-04",
-        "value": 11.63,
-        "ma": 13.35,
-        "delta": 0.33,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-05",
-        "value": 12.77,
-        "ma": 12.48,
-        "delta": -0.87,
-        "direction": "down"
-      },
-      {
-        "month": "2024-06",
-        "value": 9.52,
-        "ma": 11.31,
-        "delta": -1.17,
-        "direction": "down"
-      },
-      {
-        "month": "2024-07",
-        "value": 10.26,
-        "ma": 10.85,
-        "delta": -0.46,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-08",
-        "value": 25.0,
-        "ma": 14.93,
-        "delta": 4.08,
-        "direction": "up"
-      },
-      {
-        "month": "2024-09",
-        "value": 21.05,
-        "ma": 18.77,
-        "delta": 3.84,
-        "direction": "up"
-      },
-      {
-        "month": "2024-10",
-        "value": 21.05,
-        "ma": 22.37,
-        "delta": 3.6,
-        "direction": "up"
-      },
-      {
-        "month": "2024-11",
-        "value": 29.55,
-        "ma": 23.88,
-        "delta": 1.52,
-        "direction": "up"
-      },
-      {
-        "month": "2024-12",
-        "value": 27.78,
-        "ma": 26.13,
-        "delta": 2.24,
-        "direction": "up"
-      },
-      {
-        "month": "2025-01",
-        "value": 32.69,
-        "ma": 30.01,
-        "delta": 3.88,
-        "direction": "up"
-      },
-      {
-        "month": "2025-02",
-        "value": 27.08,
-        "ma": 29.18,
-        "delta": -0.82,
-        "direction": "down"
-      },
-      {
-        "month": "2025-03",
-        "value": 23.26,
-        "ma": 27.68,
-        "delta": -1.51,
-        "direction": "down"
-      },
-      {
-        "month": "2025-04",
-        "value": 13.95,
-        "ma": 21.43,
-        "delta": -6.25,
-        "direction": "down"
-      },
-      {
-        "month": "2025-05",
-        "value": 16.67,
-        "ma": 17.96,
-        "delta": -3.47,
-        "direction": "down"
-      },
-      {
-        "month": "2025-06",
-        "value": 21.43,
-        "ma": 17.35,
-        "delta": -0.61,
-        "direction": "down"
-      },
-      {
-        "month": "2025-07",
-        "value": 19.51,
-        "ma": 19.2,
-        "delta": 1.85,
-        "direction": "up"
-      },
-      {
-        "month": "2025-08",
-        "value": 18.6,
-        "ma": 19.85,
-        "delta": 0.64,
-        "direction": "up"
-      },
-      {
-        "month": "2025-09",
-        "value": 20.93,
-        "ma": 19.68,
-        "delta": -0.17,
-        "direction": "stable"
-      },
-      {
-        "month": "2025-10",
-        "value": 23.4,
-        "ma": 20.98,
-        "delta": 1.3,
-        "direction": "up"
-      },
-      {
-        "month": "2025-11",
-        "value": 27.91,
-        "ma": 24.08,
-        "delta": 3.1,
-        "direction": "up"
-      },
-      {
-        "month": "2025-12",
-        "value": 18.6,
-        "ma": 23.3,
-        "delta": -0.78,
-        "direction": "down"
-      }
-    ],
     "設備投資・FA": [
       {
         "month": "2020-01",
@@ -4079,512 +3067,6 @@
         "ma": 2.26,
         "delta": 0.0,
         "direction": "stable"
-      }
-    ],
-    "半導体": [
-      {
-        "month": "2020-01",
-        "value": 42.86,
-        "ma": 42.86,
-        "delta": 0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-02",
-        "value": 28.57,
-        "ma": 35.72,
-        "delta": -7.14,
-        "direction": "down"
-      },
-      {
-        "month": "2020-03",
-        "value": 0.0,
-        "ma": 23.81,
-        "delta": -11.91,
-        "direction": "down"
-      },
-      {
-        "month": "2020-04",
-        "value": 25.0,
-        "ma": 17.86,
-        "delta": -5.95,
-        "direction": "down"
-      },
-      {
-        "month": "2020-05",
-        "value": 0.0,
-        "ma": 8.33,
-        "delta": -9.52,
-        "direction": "down"
-      },
-      {
-        "month": "2020-06",
-        "value": 0.0,
-        "ma": 8.33,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2020-07",
-        "value": 20.0,
-        "ma": 6.67,
-        "delta": -1.67,
-        "direction": "down"
-      },
-      {
-        "month": "2020-08",
-        "value": 25.0,
-        "ma": 15.0,
-        "delta": 8.33,
-        "direction": "up"
-      },
-      {
-        "month": "2020-09",
-        "value": 25.0,
-        "ma": 23.33,
-        "delta": 8.33,
-        "direction": "up"
-      },
-      {
-        "month": "2020-10",
-        "value": 11.11,
-        "ma": 20.37,
-        "delta": -2.96,
-        "direction": "down"
-      },
-      {
-        "month": "2020-11",
-        "value": 0.0,
-        "ma": 12.04,
-        "delta": -8.33,
-        "direction": "down"
-      },
-      {
-        "month": "2020-12",
-        "value": 0.0,
-        "ma": 3.7,
-        "delta": -8.33,
-        "direction": "down"
-      },
-      {
-        "month": "2021-01",
-        "value": 12.5,
-        "ma": 4.17,
-        "delta": 0.46,
-        "direction": "stable"
-      },
-      {
-        "month": "2021-02",
-        "value": 0.0,
-        "ma": 4.17,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2021-03",
-        "value": 40.0,
-        "ma": 17.5,
-        "delta": 13.33,
-        "direction": "up"
-      },
-      {
-        "month": "2021-04",
-        "value": 20.0,
-        "ma": 20.0,
-        "delta": 2.5,
-        "direction": "up"
-      },
-      {
-        "month": "2021-05",
-        "value": 25.0,
-        "ma": 28.33,
-        "delta": 8.33,
-        "direction": "up"
-      },
-      {
-        "month": "2021-06",
-        "value": 0.0,
-        "ma": 15.0,
-        "delta": -13.33,
-        "direction": "down"
-      },
-      {
-        "month": "2021-07",
-        "value": 8.33,
-        "ma": 11.11,
-        "delta": -3.89,
-        "direction": "down"
-      },
-      {
-        "month": "2021-08",
-        "value": 0.0,
-        "ma": 2.78,
-        "delta": -8.33,
-        "direction": "down"
-      },
-      {
-        "month": "2021-09",
-        "value": 25.0,
-        "ma": 11.11,
-        "delta": 8.33,
-        "direction": "up"
-      },
-      {
-        "month": "2021-10",
-        "value": 12.5,
-        "ma": 12.5,
-        "delta": 1.39,
-        "direction": "up"
-      },
-      {
-        "month": "2021-11",
-        "value": 27.27,
-        "ma": 21.59,
-        "delta": 9.09,
-        "direction": "up"
-      },
-      {
-        "month": "2021-12",
-        "value": 28.57,
-        "ma": 22.78,
-        "delta": 1.19,
-        "direction": "up"
-      },
-      {
-        "month": "2022-01",
-        "value": 18.18,
-        "ma": 24.67,
-        "delta": 1.89,
-        "direction": "up"
-      },
-      {
-        "month": "2022-02",
-        "value": 0.0,
-        "ma": 15.58,
-        "delta": -9.09,
-        "direction": "down"
-      },
-      {
-        "month": "2022-03",
-        "value": 28.57,
-        "ma": 15.58,
-        "delta": 0.0,
-        "direction": "stable"
-      },
-      {
-        "month": "2022-04",
-        "value": 7.14,
-        "ma": 11.9,
-        "delta": -3.68,
-        "direction": "down"
-      },
-      {
-        "month": "2022-05",
-        "value": 35.29,
-        "ma": 23.67,
-        "delta": 11.76,
-        "direction": "up"
-      },
-      {
-        "month": "2022-06",
-        "value": 35.29,
-        "ma": 25.91,
-        "delta": 2.24,
-        "direction": "up"
-      },
-      {
-        "month": "2022-07",
-        "value": 17.65,
-        "ma": 29.41,
-        "delta": 3.5,
-        "direction": "up"
-      },
-      {
-        "month": "2022-08",
-        "value": 31.48,
-        "ma": 28.14,
-        "delta": -1.27,
-        "direction": "down"
-      },
-      {
-        "month": "2022-09",
-        "value": 32.26,
-        "ma": 27.13,
-        "delta": -1.01,
-        "direction": "down"
-      },
-      {
-        "month": "2022-10",
-        "value": 42.25,
-        "ma": 35.33,
-        "delta": 8.2,
-        "direction": "up"
-      },
-      {
-        "month": "2022-11",
-        "value": 45.59,
-        "ma": 40.03,
-        "delta": 4.7,
-        "direction": "up"
-      },
-      {
-        "month": "2022-12",
-        "value": 32.76,
-        "ma": 40.2,
-        "delta": 0.17,
-        "direction": "stable"
-      },
-      {
-        "month": "2023-01",
-        "value": 29.63,
-        "ma": 35.99,
-        "delta": -4.21,
-        "direction": "down"
-      },
-      {
-        "month": "2023-02",
-        "value": 37.5,
-        "ma": 33.3,
-        "delta": -2.7,
-        "direction": "down"
-      },
-      {
-        "month": "2023-03",
-        "value": 40.0,
-        "ma": 35.71,
-        "delta": 2.41,
-        "direction": "up"
-      },
-      {
-        "month": "2023-04",
-        "value": 38.46,
-        "ma": 38.65,
-        "delta": 2.94,
-        "direction": "up"
-      },
-      {
-        "month": "2023-05",
-        "value": 45.45,
-        "ma": 41.3,
-        "delta": 2.65,
-        "direction": "up"
-      },
-      {
-        "month": "2023-06",
-        "value": 43.64,
-        "ma": 42.52,
-        "delta": 1.21,
-        "direction": "up"
-      },
-      {
-        "month": "2023-07",
-        "value": 45.1,
-        "ma": 44.73,
-        "delta": 2.21,
-        "direction": "up"
-      },
-      {
-        "month": "2023-08",
-        "value": 38.89,
-        "ma": 42.54,
-        "delta": -2.19,
-        "direction": "down"
-      },
-      {
-        "month": "2023-09",
-        "value": 55.77,
-        "ma": 46.59,
-        "delta": 4.04,
-        "direction": "up"
-      },
-      {
-        "month": "2023-10",
-        "value": 55.56,
-        "ma": 50.07,
-        "delta": 3.49,
-        "direction": "up"
-      },
-      {
-        "month": "2023-11",
-        "value": 49.02,
-        "ma": 53.45,
-        "delta": 3.38,
-        "direction": "up"
-      },
-      {
-        "month": "2023-12",
-        "value": 50.0,
-        "ma": 51.53,
-        "delta": -1.92,
-        "direction": "down"
-      },
-      {
-        "month": "2024-01",
-        "value": 48.94,
-        "ma": 49.32,
-        "delta": -2.21,
-        "direction": "down"
-      },
-      {
-        "month": "2024-02",
-        "value": 50.0,
-        "ma": 49.65,
-        "delta": 0.33,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-03",
-        "value": 54.35,
-        "ma": 51.1,
-        "delta": 1.45,
-        "direction": "up"
-      },
-      {
-        "month": "2024-04",
-        "value": 48.84,
-        "ma": 51.06,
-        "delta": -0.03,
-        "direction": "stable"
-      },
-      {
-        "month": "2024-05",
-        "value": 36.17,
-        "ma": 46.45,
-        "delta": -4.61,
-        "direction": "down"
-      },
-      {
-        "month": "2024-06",
-        "value": 35.71,
-        "ma": 40.24,
-        "delta": -6.21,
-        "direction": "down"
-      },
-      {
-        "month": "2024-07",
-        "value": 28.21,
-        "ma": 33.36,
-        "delta": -6.88,
-        "direction": "down"
-      },
-      {
-        "month": "2024-08",
-        "value": 23.21,
-        "ma": 29.04,
-        "delta": -4.32,
-        "direction": "down"
-      },
-      {
-        "month": "2024-09",
-        "value": 5.26,
-        "ma": 18.89,
-        "delta": -10.15,
-        "direction": "down"
-      },
-      {
-        "month": "2024-10",
-        "value": 21.05,
-        "ma": 16.51,
-        "delta": -2.39,
-        "direction": "down"
-      },
-      {
-        "month": "2024-11",
-        "value": 13.64,
-        "ma": 13.32,
-        "delta": -3.19,
-        "direction": "down"
-      },
-      {
-        "month": "2024-12",
-        "value": 19.44,
-        "ma": 18.04,
-        "delta": 4.73,
-        "direction": "up"
-      },
-      {
-        "month": "2025-01",
-        "value": 21.15,
-        "ma": 18.08,
-        "delta": 0.03,
-        "direction": "stable"
-      },
-      {
-        "month": "2025-02",
-        "value": 12.5,
-        "ma": 17.7,
-        "delta": -0.38,
-        "direction": "stable"
-      },
-      {
-        "month": "2025-03",
-        "value": 16.28,
-        "ma": 16.64,
-        "delta": -1.05,
-        "direction": "down"
-      },
-      {
-        "month": "2025-04",
-        "value": 2.33,
-        "ma": 10.37,
-        "delta": -6.27,
-        "direction": "down"
-      },
-      {
-        "month": "2025-05",
-        "value": 16.67,
-        "ma": 11.76,
-        "delta": 1.39,
-        "direction": "up"
-      },
-      {
-        "month": "2025-06",
-        "value": 21.43,
-        "ma": 13.48,
-        "delta": 1.72,
-        "direction": "up"
-      },
-      {
-        "month": "2025-07",
-        "value": 19.51,
-        "ma": 19.2,
-        "delta": 5.73,
-        "direction": "up"
-      },
-      {
-        "month": "2025-08",
-        "value": 20.93,
-        "ma": 20.62,
-        "delta": 1.42,
-        "direction": "up"
-      },
-      {
-        "month": "2025-09",
-        "value": 23.26,
-        "ma": 21.23,
-        "delta": 0.61,
-        "direction": "up"
-      },
-      {
-        "month": "2025-10",
-        "value": 17.02,
-        "ma": 20.4,
-        "delta": -0.83,
-        "direction": "down"
-      },
-      {
-        "month": "2025-11",
-        "value": 23.26,
-        "ma": 21.18,
-        "delta": 0.78,
-        "direction": "up"
-      },
-      {
-        "month": "2025-12",
-        "value": 32.56,
-        "ma": 24.28,
-        "delta": 3.1,
-        "direction": "up"
       }
     ],
     "通信インフラ": [
@@ -5092,6 +3574,1524 @@
         "delta": -6.2,
         "direction": "down"
       }
+    ],
+    "セキュリティ・防衛": [
+      {
+        "month": "2020-01",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-02",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-03",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-04",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-05",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-06",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-07",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-08",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-09",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-10",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-11",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-12",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-01",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-02",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-03",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-04",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-05",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-06",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-07",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-08",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-09",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-10",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-11",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-12",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-01",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-02",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-03",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-04",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-05",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-06",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-07",
+        "value": 5.88,
+        "ma": 1.96,
+        "delta": 1.96,
+        "direction": "up"
+      },
+      {
+        "month": "2022-08",
+        "value": 0.0,
+        "ma": 1.96,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-09",
+        "value": 0.0,
+        "ma": 1.96,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-10",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": -1.96,
+        "direction": "down"
+      },
+      {
+        "month": "2022-11",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-12",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-01",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-02",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-03",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-04",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-05",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-06",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-07",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-08",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-09",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-10",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-11",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-12",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-01",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-02",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-03",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-04",
+        "value": 2.33,
+        "ma": 0.78,
+        "delta": 0.78,
+        "direction": "up"
+      },
+      {
+        "month": "2024-05",
+        "value": 0.0,
+        "ma": 0.78,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-06",
+        "value": 0.0,
+        "ma": 0.78,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-07",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": -0.78,
+        "direction": "down"
+      },
+      {
+        "month": "2024-08",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-09",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-10",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-11",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-12",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-01",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-02",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-03",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-04",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-05",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-06",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-07",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-08",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-09",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-10",
+        "value": 4.26,
+        "ma": 1.42,
+        "delta": 1.42,
+        "direction": "up"
+      },
+      {
+        "month": "2025-11",
+        "value": 2.33,
+        "ma": 2.2,
+        "delta": 0.78,
+        "direction": "up"
+      },
+      {
+        "month": "2025-12",
+        "value": 0.0,
+        "ma": 2.2,
+        "delta": 0.0,
+        "direction": "stable"
+      }
+    ],
+    "コンテンツ・エンタメ×テクノロジー": [
+      {
+        "month": "2020-01",
+        "value": 14.29,
+        "ma": 14.29,
+        "delta": 0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-02",
+        "value": 0.0,
+        "ma": 7.14,
+        "delta": -7.14,
+        "direction": "down"
+      },
+      {
+        "month": "2020-03",
+        "value": 0.0,
+        "ma": 4.76,
+        "delta": -2.38,
+        "direction": "down"
+      },
+      {
+        "month": "2020-04",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": -4.76,
+        "direction": "down"
+      },
+      {
+        "month": "2020-05",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-06",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-07",
+        "value": 20.0,
+        "ma": 6.67,
+        "delta": 6.67,
+        "direction": "up"
+      },
+      {
+        "month": "2020-08",
+        "value": 0.0,
+        "ma": 6.67,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-09",
+        "value": 0.0,
+        "ma": 6.67,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-10",
+        "value": 11.11,
+        "ma": 3.7,
+        "delta": -2.96,
+        "direction": "down"
+      },
+      {
+        "month": "2020-11",
+        "value": 0.0,
+        "ma": 3.7,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-12",
+        "value": 12.5,
+        "ma": 7.87,
+        "delta": 4.17,
+        "direction": "up"
+      },
+      {
+        "month": "2021-01",
+        "value": 12.5,
+        "ma": 8.33,
+        "delta": 0.46,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-02",
+        "value": 14.29,
+        "ma": 13.1,
+        "delta": 4.76,
+        "direction": "up"
+      },
+      {
+        "month": "2021-03",
+        "value": 0.0,
+        "ma": 8.93,
+        "delta": -4.17,
+        "direction": "down"
+      },
+      {
+        "month": "2021-04",
+        "value": 0.0,
+        "ma": 4.76,
+        "delta": -4.17,
+        "direction": "down"
+      },
+      {
+        "month": "2021-05",
+        "value": 12.5,
+        "ma": 4.17,
+        "delta": -0.6,
+        "direction": "down"
+      },
+      {
+        "month": "2021-06",
+        "value": 12.5,
+        "ma": 8.33,
+        "delta": 4.17,
+        "direction": "up"
+      },
+      {
+        "month": "2021-07",
+        "value": 16.67,
+        "ma": 13.89,
+        "delta": 5.56,
+        "direction": "up"
+      },
+      {
+        "month": "2021-08",
+        "value": 0.0,
+        "ma": 9.72,
+        "delta": -4.17,
+        "direction": "down"
+      },
+      {
+        "month": "2021-09",
+        "value": 0.0,
+        "ma": 5.56,
+        "delta": -4.17,
+        "direction": "down"
+      },
+      {
+        "month": "2021-10",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": -5.56,
+        "direction": "down"
+      },
+      {
+        "month": "2021-11",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-12",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-01",
+        "value": 9.09,
+        "ma": 3.03,
+        "delta": 3.03,
+        "direction": "up"
+      },
+      {
+        "month": "2022-02",
+        "value": 14.29,
+        "ma": 7.79,
+        "delta": 4.76,
+        "direction": "up"
+      },
+      {
+        "month": "2022-03",
+        "value": 0.0,
+        "ma": 7.79,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-04",
+        "value": 7.14,
+        "ma": 7.14,
+        "delta": -0.65,
+        "direction": "down"
+      },
+      {
+        "month": "2022-05",
+        "value": 0.0,
+        "ma": 2.38,
+        "delta": -4.76,
+        "direction": "down"
+      },
+      {
+        "month": "2022-06",
+        "value": 0.0,
+        "ma": 2.38,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-07",
+        "value": 5.88,
+        "ma": 1.96,
+        "delta": -0.42,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-08",
+        "value": 12.96,
+        "ma": 6.28,
+        "delta": 4.32,
+        "direction": "up"
+      },
+      {
+        "month": "2022-09",
+        "value": 14.52,
+        "ma": 11.12,
+        "delta": 4.84,
+        "direction": "up"
+      },
+      {
+        "month": "2022-10",
+        "value": 9.86,
+        "ma": 12.45,
+        "delta": 1.33,
+        "direction": "up"
+      },
+      {
+        "month": "2022-11",
+        "value": 10.29,
+        "ma": 11.56,
+        "delta": -0.89,
+        "direction": "down"
+      },
+      {
+        "month": "2022-12",
+        "value": 12.07,
+        "ma": 10.74,
+        "delta": -0.82,
+        "direction": "down"
+      },
+      {
+        "month": "2023-01",
+        "value": 14.81,
+        "ma": 12.39,
+        "delta": 1.65,
+        "direction": "up"
+      },
+      {
+        "month": "2023-02",
+        "value": 10.94,
+        "ma": 12.61,
+        "delta": 0.22,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-03",
+        "value": 4.62,
+        "ma": 10.12,
+        "delta": -2.48,
+        "direction": "down"
+      },
+      {
+        "month": "2023-04",
+        "value": 4.62,
+        "ma": 6.73,
+        "delta": -3.4,
+        "direction": "down"
+      },
+      {
+        "month": "2023-05",
+        "value": 4.55,
+        "ma": 4.6,
+        "delta": -2.13,
+        "direction": "down"
+      },
+      {
+        "month": "2023-06",
+        "value": 5.45,
+        "ma": 4.87,
+        "delta": 0.28,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-07",
+        "value": 5.88,
+        "ma": 5.29,
+        "delta": 0.42,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-08",
+        "value": 7.41,
+        "ma": 6.25,
+        "delta": 0.95,
+        "direction": "up"
+      },
+      {
+        "month": "2023-09",
+        "value": 5.77,
+        "ma": 6.35,
+        "delta": 0.11,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-10",
+        "value": 5.56,
+        "ma": 6.25,
+        "delta": -0.11,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-11",
+        "value": 5.88,
+        "ma": 5.74,
+        "delta": -0.51,
+        "direction": "down"
+      },
+      {
+        "month": "2023-12",
+        "value": 6.25,
+        "ma": 5.9,
+        "delta": 0.16,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-01",
+        "value": 6.38,
+        "ma": 6.17,
+        "delta": 0.27,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-02",
+        "value": 9.62,
+        "ma": 7.42,
+        "delta": 1.25,
+        "direction": "up"
+      },
+      {
+        "month": "2024-03",
+        "value": 4.35,
+        "ma": 6.78,
+        "delta": -0.63,
+        "direction": "down"
+      },
+      {
+        "month": "2024-04",
+        "value": 4.65,
+        "ma": 6.21,
+        "delta": -0.58,
+        "direction": "down"
+      },
+      {
+        "month": "2024-05",
+        "value": 10.64,
+        "ma": 6.55,
+        "delta": 0.34,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-06",
+        "value": 11.9,
+        "ma": 9.06,
+        "delta": 2.52,
+        "direction": "up"
+      },
+      {
+        "month": "2024-07",
+        "value": 12.82,
+        "ma": 11.79,
+        "delta": 2.72,
+        "direction": "up"
+      },
+      {
+        "month": "2024-08",
+        "value": 10.71,
+        "ma": 11.81,
+        "delta": 0.02,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-09",
+        "value": 13.16,
+        "ma": 12.23,
+        "delta": 0.42,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-10",
+        "value": 2.63,
+        "ma": 8.83,
+        "delta": -3.4,
+        "direction": "down"
+      },
+      {
+        "month": "2024-11",
+        "value": 11.36,
+        "ma": 9.05,
+        "delta": 0.22,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-12",
+        "value": 5.56,
+        "ma": 6.52,
+        "delta": -2.53,
+        "direction": "down"
+      },
+      {
+        "month": "2025-01",
+        "value": 7.69,
+        "ma": 8.2,
+        "delta": 1.69,
+        "direction": "up"
+      },
+      {
+        "month": "2025-02",
+        "value": 12.5,
+        "ma": 8.58,
+        "delta": 0.38,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-03",
+        "value": 11.63,
+        "ma": 10.61,
+        "delta": 2.02,
+        "direction": "up"
+      },
+      {
+        "month": "2025-04",
+        "value": 18.6,
+        "ma": 14.24,
+        "delta": 3.64,
+        "direction": "up"
+      },
+      {
+        "month": "2025-05",
+        "value": 7.14,
+        "ma": 12.46,
+        "delta": -1.79,
+        "direction": "down"
+      },
+      {
+        "month": "2025-06",
+        "value": 10.71,
+        "ma": 12.15,
+        "delta": -0.31,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-07",
+        "value": 7.32,
+        "ma": 8.39,
+        "delta": -3.76,
+        "direction": "down"
+      },
+      {
+        "month": "2025-08",
+        "value": 13.95,
+        "ma": 10.66,
+        "delta": 2.27,
+        "direction": "up"
+      },
+      {
+        "month": "2025-09",
+        "value": 6.98,
+        "ma": 9.42,
+        "delta": -1.24,
+        "direction": "down"
+      },
+      {
+        "month": "2025-10",
+        "value": 6.38,
+        "ma": 9.1,
+        "delta": -0.31,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-11",
+        "value": 13.95,
+        "ma": 9.1,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-12",
+        "value": 16.28,
+        "ma": 12.2,
+        "delta": 3.1,
+        "direction": "up"
+      }
+    ],
+    "AI・データセンター": [
+      {
+        "month": "2020-01",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-02",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-03",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-04",
+        "value": 0.0,
+        "ma": 0.0,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-05",
+        "value": 20.0,
+        "ma": 6.67,
+        "delta": 6.67,
+        "direction": "up"
+      },
+      {
+        "month": "2020-06",
+        "value": 16.67,
+        "ma": 12.22,
+        "delta": 5.56,
+        "direction": "up"
+      },
+      {
+        "month": "2020-07",
+        "value": 10.0,
+        "ma": 15.56,
+        "delta": 3.33,
+        "direction": "up"
+      },
+      {
+        "month": "2020-08",
+        "value": 12.5,
+        "ma": 13.06,
+        "delta": -2.5,
+        "direction": "down"
+      },
+      {
+        "month": "2020-09",
+        "value": 12.5,
+        "ma": 11.67,
+        "delta": -1.39,
+        "direction": "down"
+      },
+      {
+        "month": "2020-10",
+        "value": 11.11,
+        "ma": 12.04,
+        "delta": 0.37,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-11",
+        "value": 12.5,
+        "ma": 12.04,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2020-12",
+        "value": 12.5,
+        "ma": 12.04,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-01",
+        "value": 12.5,
+        "ma": 12.5,
+        "delta": 0.46,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-02",
+        "value": 14.29,
+        "ma": 13.1,
+        "delta": 0.6,
+        "direction": "up"
+      },
+      {
+        "month": "2021-03",
+        "value": 10.0,
+        "ma": 12.26,
+        "delta": -0.83,
+        "direction": "down"
+      },
+      {
+        "month": "2021-04",
+        "value": 20.0,
+        "ma": 14.76,
+        "delta": 2.5,
+        "direction": "up"
+      },
+      {
+        "month": "2021-05",
+        "value": 12.5,
+        "ma": 14.17,
+        "delta": -0.6,
+        "direction": "down"
+      },
+      {
+        "month": "2021-06",
+        "value": 12.5,
+        "ma": 15.0,
+        "delta": 0.83,
+        "direction": "up"
+      },
+      {
+        "month": "2021-07",
+        "value": 8.33,
+        "ma": 11.11,
+        "delta": -3.89,
+        "direction": "down"
+      },
+      {
+        "month": "2021-08",
+        "value": 11.11,
+        "ma": 10.65,
+        "delta": -0.46,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-09",
+        "value": 12.5,
+        "ma": 10.65,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2021-10",
+        "value": 12.5,
+        "ma": 12.04,
+        "delta": 1.39,
+        "direction": "up"
+      },
+      {
+        "month": "2021-11",
+        "value": 9.09,
+        "ma": 11.36,
+        "delta": -0.67,
+        "direction": "down"
+      },
+      {
+        "month": "2021-12",
+        "value": 7.14,
+        "ma": 9.58,
+        "delta": -1.79,
+        "direction": "down"
+      },
+      {
+        "month": "2022-01",
+        "value": 9.09,
+        "ma": 8.44,
+        "delta": -1.14,
+        "direction": "down"
+      },
+      {
+        "month": "2022-02",
+        "value": 14.29,
+        "ma": 10.17,
+        "delta": 1.73,
+        "direction": "up"
+      },
+      {
+        "month": "2022-03",
+        "value": 7.14,
+        "ma": 10.17,
+        "delta": 0.0,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-04",
+        "value": 7.14,
+        "ma": 9.52,
+        "delta": -0.65,
+        "direction": "down"
+      },
+      {
+        "month": "2022-05",
+        "value": 5.88,
+        "ma": 6.72,
+        "delta": -2.8,
+        "direction": "down"
+      },
+      {
+        "month": "2022-06",
+        "value": 17.65,
+        "ma": 10.22,
+        "delta": 3.5,
+        "direction": "up"
+      },
+      {
+        "month": "2022-07",
+        "value": 5.88,
+        "ma": 9.8,
+        "delta": -0.42,
+        "direction": "stable"
+      },
+      {
+        "month": "2022-08",
+        "value": 1.85,
+        "ma": 8.46,
+        "delta": -1.34,
+        "direction": "down"
+      },
+      {
+        "month": "2022-09",
+        "value": 1.61,
+        "ma": 3.11,
+        "delta": -5.35,
+        "direction": "down"
+      },
+      {
+        "month": "2022-10",
+        "value": 1.41,
+        "ma": 1.62,
+        "delta": -1.49,
+        "direction": "down"
+      },
+      {
+        "month": "2022-11",
+        "value": 4.41,
+        "ma": 2.48,
+        "delta": 0.85,
+        "direction": "up"
+      },
+      {
+        "month": "2022-12",
+        "value": 1.72,
+        "ma": 2.51,
+        "delta": 0.04,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-01",
+        "value": 1.85,
+        "ma": 2.66,
+        "delta": 0.15,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-02",
+        "value": 7.81,
+        "ma": 3.79,
+        "delta": 1.13,
+        "direction": "up"
+      },
+      {
+        "month": "2023-03",
+        "value": 13.85,
+        "ma": 7.84,
+        "delta": 4.04,
+        "direction": "up"
+      },
+      {
+        "month": "2023-04",
+        "value": 9.23,
+        "ma": 10.3,
+        "delta": 2.46,
+        "direction": "up"
+      },
+      {
+        "month": "2023-05",
+        "value": 13.64,
+        "ma": 12.24,
+        "delta": 1.94,
+        "direction": "up"
+      },
+      {
+        "month": "2023-06",
+        "value": 9.09,
+        "ma": 10.65,
+        "delta": -1.59,
+        "direction": "down"
+      },
+      {
+        "month": "2023-07",
+        "value": 11.76,
+        "ma": 11.5,
+        "delta": 0.84,
+        "direction": "up"
+      },
+      {
+        "month": "2023-08",
+        "value": 11.11,
+        "ma": 10.65,
+        "delta": -0.84,
+        "direction": "down"
+      },
+      {
+        "month": "2023-09",
+        "value": 11.54,
+        "ma": 11.47,
+        "delta": 0.82,
+        "direction": "up"
+      },
+      {
+        "month": "2023-10",
+        "value": 11.11,
+        "ma": 11.25,
+        "delta": -0.22,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-11",
+        "value": 11.76,
+        "ma": 11.47,
+        "delta": 0.22,
+        "direction": "stable"
+      },
+      {
+        "month": "2023-12",
+        "value": 12.5,
+        "ma": 11.79,
+        "delta": 0.32,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-01",
+        "value": 10.64,
+        "ma": 11.63,
+        "delta": -0.16,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-02",
+        "value": 15.38,
+        "ma": 12.84,
+        "delta": 1.21,
+        "direction": "up"
+      },
+      {
+        "month": "2024-03",
+        "value": 13.04,
+        "ma": 13.02,
+        "delta": 0.18,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-04",
+        "value": 11.63,
+        "ma": 13.35,
+        "delta": 0.33,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-05",
+        "value": 12.77,
+        "ma": 12.48,
+        "delta": -0.87,
+        "direction": "down"
+      },
+      {
+        "month": "2024-06",
+        "value": 9.52,
+        "ma": 11.31,
+        "delta": -1.17,
+        "direction": "down"
+      },
+      {
+        "month": "2024-07",
+        "value": 10.26,
+        "ma": 10.85,
+        "delta": -0.46,
+        "direction": "stable"
+      },
+      {
+        "month": "2024-08",
+        "value": 25.0,
+        "ma": 14.93,
+        "delta": 4.08,
+        "direction": "up"
+      },
+      {
+        "month": "2024-09",
+        "value": 21.05,
+        "ma": 18.77,
+        "delta": 3.84,
+        "direction": "up"
+      },
+      {
+        "month": "2024-10",
+        "value": 21.05,
+        "ma": 22.37,
+        "delta": 3.6,
+        "direction": "up"
+      },
+      {
+        "month": "2024-11",
+        "value": 29.55,
+        "ma": 23.88,
+        "delta": 1.52,
+        "direction": "up"
+      },
+      {
+        "month": "2024-12",
+        "value": 27.78,
+        "ma": 26.13,
+        "delta": 2.24,
+        "direction": "up"
+      },
+      {
+        "month": "2025-01",
+        "value": 32.69,
+        "ma": 30.01,
+        "delta": 3.88,
+        "direction": "up"
+      },
+      {
+        "month": "2025-02",
+        "value": 27.08,
+        "ma": 29.18,
+        "delta": -0.82,
+        "direction": "down"
+      },
+      {
+        "month": "2025-03",
+        "value": 23.26,
+        "ma": 27.68,
+        "delta": -1.51,
+        "direction": "down"
+      },
+      {
+        "month": "2025-04",
+        "value": 13.95,
+        "ma": 21.43,
+        "delta": -6.25,
+        "direction": "down"
+      },
+      {
+        "month": "2025-05",
+        "value": 16.67,
+        "ma": 17.96,
+        "delta": -3.47,
+        "direction": "down"
+      },
+      {
+        "month": "2025-06",
+        "value": 21.43,
+        "ma": 17.35,
+        "delta": -0.61,
+        "direction": "down"
+      },
+      {
+        "month": "2025-07",
+        "value": 19.51,
+        "ma": 19.2,
+        "delta": 1.85,
+        "direction": "up"
+      },
+      {
+        "month": "2025-08",
+        "value": 18.6,
+        "ma": 19.85,
+        "delta": 0.64,
+        "direction": "up"
+      },
+      {
+        "month": "2025-09",
+        "value": 20.93,
+        "ma": 19.68,
+        "delta": -0.17,
+        "direction": "stable"
+      },
+      {
+        "month": "2025-10",
+        "value": 23.4,
+        "ma": 20.98,
+        "delta": 1.3,
+        "direction": "up"
+      },
+      {
+        "month": "2025-11",
+        "value": 27.91,
+        "ma": 24.08,
+        "delta": 3.1,
+        "direction": "up"
+      },
+      {
+        "month": "2025-12",
+        "value": 18.6,
+        "ma": 23.3,
+        "delta": -0.78,
+        "direction": "down"
+      }
     ]
   },
   "holdings_analysis": {
@@ -5111,13 +5111,13 @@
       "consecutive_months": 0,
       "rank_volatility": 0.86
     },
-    "精密機器": {
-      "total_appearances": 14,
-      "appearance_rate": 19.4,
-      "avg_rank": 5.5,
+    "東証1部": {
+      "total_appearances": 17,
+      "appearance_rate": 23.6,
+      "avg_rank": 5.9,
       "best_rank": 3,
       "consecutive_months": 0,
-      "rank_volatility": 0.77
+      "rank_volatility": 0.69
     },
     "村田製作所": {
       "total_appearances": 24,
@@ -5214,14 +5214,6 @@
       "best_rank": 1,
       "consecutive_months": 0,
       "rank_volatility": 0.52
-    },
-    "電気機器": {
-      "total_appearances": 3,
-      "appearance_rate": 4.2,
-      "avg_rank": 8.0,
-      "best_rank": 8,
-      "consecutive_months": 0,
-      "rank_volatility": 0.0
     },
     "富士フイルムホールディングス": {
       "total_appearances": 8,
@@ -5359,7 +5351,7 @@
       "consecutive_months": 17,
       "rank_volatility": 1.81
     },
-    "情報・通信業": {
+    "東証プライム": {
       "total_appearances": 7,
       "appearance_rate": 9.7,
       "avg_rank": 8.1,
@@ -5871,7 +5863,7 @@
         "weight": "4.0"
       }
     ],
-    "精密機器": [
+    "東証1部": [
       {
         "month": "2020-01",
         "rank": 3,
@@ -5941,6 +5933,21 @@
         "month": "2021-02",
         "rank": 9,
         "weight": "3.6"
+      },
+      {
+        "month": "2021-04",
+        "rank": 8,
+        "weight": "4.9"
+      },
+      {
+        "month": "2021-05",
+        "rank": 8,
+        "weight": "4.6"
+      },
+      {
+        "month": "2021-06",
+        "rank": 8,
+        "weight": "4.2"
       }
     ],
     "村田製作所": [
@@ -7807,23 +7814,6 @@
         "weight": "4.8"
       }
     ],
-    "電気機器": [
-      {
-        "month": "2021-04",
-        "rank": 8,
-        "weight": "4.9"
-      },
-      {
-        "month": "2021-05",
-        "rank": 8,
-        "weight": "4.6"
-      },
-      {
-        "month": "2021-06",
-        "rank": 8,
-        "weight": "4.2"
-      }
-    ],
     "富士フイルムホールディングス": [
       {
         "month": "2021-05",
@@ -9003,7 +8993,7 @@
         "weight": "7.3"
       }
     ],
-    "情報・通信業": [
+    "東証プライム": [
       {
         "month": "2025-04",
         "rank": 6,
@@ -9054,7 +9044,7 @@
       "new_entries": [
         "ソニーグループ",
         "アドバンテスト",
-        "精密機器",
+        "東証1部",
         "村田製作所",
         "ディスコ",
         "島津製作所",
@@ -9180,7 +9170,7 @@
           "change": -2
         },
         {
-          "name": "精密機器",
+          "name": "東証1部",
           "change": -2
         },
         {
@@ -9269,7 +9259,7 @@
           "change": 1
         },
         {
-          "name": "精密機器",
+          "name": "東証1部",
           "change": 1
         },
         {
@@ -9361,7 +9351,7 @@
           "change": -1
         },
         {
-          "name": "精密機器",
+          "name": "東証1部",
           "change": -5
         },
         {
@@ -9392,7 +9382,7 @@
           "change": 1
         },
         {
-          "name": "精密機器",
+          "name": "東証1部",
           "change": 1
         },
         {
@@ -9489,7 +9479,7 @@
           "change": -1
         },
         {
-          "name": "精密機器",
+          "name": "東証1部",
           "change": -1
         },
         {
@@ -9505,7 +9495,7 @@
         "島津製作所"
       ],
       "removed": [
-        "精密機器",
+        "東証1部",
         "ディスコ"
       ],
       "rank_up": [
@@ -9528,7 +9518,7 @@
     {
       "month": "2021-04",
       "new_entries": [
-        "電気機器",
+        "東証1部",
         "ディスコ"
       ],
       "removed": [
@@ -9629,7 +9619,7 @@
         "村田製作所"
       ],
       "removed": [
-        "電気機器",
+        "東証1部",
         "富士フイルムホールディングス"
       ],
       "rank_up": [
@@ -11097,7 +11087,7 @@
     {
       "month": "2025-04",
       "new_entries": [
-        "情報・通信業",
+        "東証プライム",
         "任天堂"
       ],
       "removed": [
@@ -11169,7 +11159,7 @@
           "change": -1
         },
         {
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "change": -2
         },
         {
@@ -11226,7 +11216,7 @@
           "change": -1
         },
         {
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "change": -1
         }
       ]
@@ -11251,7 +11241,7 @@
           "change": 2
         },
         {
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "change": 1
         }
       ],
@@ -11339,7 +11329,7 @@
           "change": -1
         },
         {
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "change": -1
         }
       ]
@@ -11376,7 +11366,7 @@
         "ディスコ"
       ],
       "removed": [
-        "情報・通信業",
+        "東証プライム",
         "日本製鋼所"
       ],
       "rank_up": [
@@ -11449,11 +11439,11 @@
       "構造改革・収益改善期待": 0.04,
       "成長性・需要拡大": 1.0
     },
-    "精密機器": {
-      "AIインフラ恩恵度": 0.06,
+    "東証1部": {
+      "AIインフラ恩恵度": 0.07,
       "半導体関連度": 0.09,
-      "グローバル競争優位性": 0.06,
-      "構造改革・収益改善期待": 0.02,
+      "グローバル競争優位性": 0.07,
+      "構造改革・収益改善期待": 0.03,
       "成長性・需要拡大": 1.0
     },
     "村田製作所": {
@@ -11538,13 +11528,6 @@
       "半導体関連度": 0.27,
       "グローバル競争優位性": 0.04,
       "構造改革・収益改善期待": 0.06,
-      "成長性・需要拡大": 1.0
-    },
-    "電気機器": {
-      "AIインフラ恩恵度": 0.1,
-      "半導体関連度": 0.1,
-      "グローバル競争優位性": 0.1,
-      "構造改革・収益改善期待": 0.05,
       "成長性・需要拡大": 1.0
     },
     "富士フイルムホールディングス": {
@@ -11666,7 +11649,7 @@
       "構造改革・収益改善期待": 0.03,
       "成長性・需要拡大": 1.0
     },
-    "情報・通信業": {
+    "東証プライム": {
       "AIインフラ恩恵度": 0.39,
       "半導体関連度": 0.2,
       "グローバル競争優位性": 0.02,
@@ -11853,7 +11836,7 @@
         "cycle_tendency": 0
       },
       "explanations": [
-        "テーマ一致: AI・データセンター, 半導体",
+        "テーマ一致: 半導体, AI・データセンター",
         "運用方針テキストとの特徴類似度が高い",
         "直近方針でポジティブシグナル"
       ]
@@ -11932,26 +11915,6 @@
         "過去24回採用（再登場候補）",
         "直近方針でポジティブシグナル",
         "入替サイクル: 過去24回登場、再登場パターン"
-      ]
-    },
-    {
-      "name": "情報・通信業",
-      "total_score": 0.225,
-      "confidence": "Low",
-      "is_current_holding": false,
-      "score_breakdown": {
-        "theme_match": 0.233,
-        "past_frequency": 0.126,
-        "description_sim": 0,
-        "sector_trend": 0,
-        "signal_match": 0.6,
-        "cycle_tendency": 0.7
-      },
-      "explanations": [
-        "テーマ一致: 通信インフラ",
-        "過去7回採用（再登場候補）",
-        "直近方針でポジティブシグナル",
-        "入替サイクル: 過去7回登場、再登場パターン"
       ]
     },
     {
@@ -12064,26 +12027,44 @@
         "テーマ一致: 半導体",
         "直近方針でポジティブシグナル"
       ]
+    },
+    {
+      "name": "トリケミカル研究所",
+      "total_score": 0.208,
+      "confidence": "Low",
+      "is_current_holding": false,
+      "score_breakdown": {
+        "theme_match": 0.326,
+        "past_frequency": 0.0,
+        "description_sim": 0.2,
+        "sector_trend": 0,
+        "signal_match": 0.8,
+        "cycle_tendency": 0
+      },
+      "explanations": [
+        "テーマ一致: 半導体",
+        "直近方針でポジティブシグナル"
+      ]
     }
   ],
   "backtest": {
     "summary": {
       "top_3": {
         "avg_hit_rate": 0.169,
-        "avg_precision": 0.067,
-        "avg_recall": 0.146,
+        "avg_precision": 0.072,
+        "avg_recall": 0.154,
         "total_periods": 65
       },
       "top_5": {
         "avg_hit_rate": 0.231,
-        "avg_precision": 0.052,
-        "avg_recall": 0.208,
+        "avg_precision": 0.055,
+        "avg_recall": 0.215,
         "total_periods": 65
       },
       "top_10": {
         "avg_hit_rate": 0.4,
-        "avg_precision": 0.046,
-        "avg_recall": 0.367,
+        "avg_precision": 0.048,
+        "avg_recall": 0.374,
         "total_periods": 65
       }
     },
@@ -12107,11 +12088,11 @@
           },
           "top_5": {
             "predicted": [
+              "オリンパス",
               "KDDI",
               "日本電信電話",
-              "KOKUSAI ELECTRIC",
-              "オリンパス",
-              "京セラ"
+              "京セラ",
+              "KOKUSAI ELECTRIC"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12121,16 +12102,16 @@
           },
           "top_10": {
             "predicted": [
-              "スクウェア・エニックス",
-              "SCREEN",
+              "オリンパス",
               "KDDI",
               "日本電信電話",
+              "スクウェア・エニックス",
+              "カプコン",
+              "京セラ",
               "KOKUSAI ELECTRIC",
               "SUMCO",
               "ソシオネクスト",
-              "オリンパス",
-              "京セラ",
-              "カプコン"
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12160,11 +12141,11 @@
           },
           "top_5": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
-              "日本電信電話",
-              "KDDI",
               "オリンパス",
-              "京セラ"
+              "KDDI",
+              "日本電信電話",
+              "京セラ",
+              "KOKUSAI ELECTRIC"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12174,16 +12155,16 @@
           },
           "top_10": {
             "predicted": [
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
-              "日本電信電話",
+              "オリンパス",
               "KDDI",
+              "日本電信電話",
+              "トリケミカル研究所",
+              "ルネサスエレクトロニクス",
+              "京セラ",
+              "KOKUSAI ELECTRIC",
               "SUMCO",
               "ソシオネクスト",
-              "トリケミカル研究所",
-              "オリンパス",
-              "京セラ",
-              "ルネサスエレクトロニクス"
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12215,11 +12196,11 @@
           },
           "top_5": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
-              "日本電信電話",
-              "KDDI",
               "オリンパス",
-              "京セラ"
+              "KDDI",
+              "日本電信電話",
+              "京セラ",
+              "KOKUSAI ELECTRIC"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12229,16 +12210,16 @@
           },
           "top_10": {
             "predicted": [
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
-              "日本電信電話",
+              "オリンパス",
               "KDDI",
+              "日本電信電話",
+              "トリケミカル研究所",
+              "ルネサスエレクトロニクス",
+              "京セラ",
+              "KOKUSAI ELECTRIC",
               "SUMCO",
               "ソシオネクスト",
-              "トリケミカル研究所",
-              "オリンパス",
-              "京セラ",
-              "ルネサスエレクトロニクス"
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12258,9 +12239,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "京セラ",
               "島津製作所",
-              "オリンパス"
+              "オリンパス",
+              "京セラ"
             ],
             "hits": [
               "島津製作所"
@@ -12272,11 +12253,11 @@
           },
           "top_5": {
             "predicted": [
-              "KDDI",
-              "島津製作所",
-              "日本電信電話",
               "オリンパス",
-              "京セラ"
+              "KDDI",
+              "日本電信電話",
+              "京セラ",
+              "島津製作所"
             ],
             "hits": [
               "島津製作所"
@@ -12288,16 +12269,16 @@
           },
           "top_10": {
             "predicted": [
-              "SCREEN",
-              "KDDI",
-              "島津製作所",
-              "日本電信電話",
-              "KOKUSAI ELECTRIC",
-              "SUMCO",
+              "SMC",
               "オリンパス",
+              "KDDI",
+              "日本電信電話",
               "京セラ",
+              "KOKUSAI ELECTRIC",
               "TDK",
-              "SMC"
+              "SUMCO",
+              "島津製作所",
+              "SCREEN"
             ],
             "hits": [
               "島津製作所"
@@ -12326,9 +12307,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
+              "ソフトバンクグループ",
               "KDDI",
-              "日本電信電話",
-              "ソフトバンクグループ"
+              "日本電信電話"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12338,11 +12319,11 @@
           },
           "top_5": {
             "predicted": [
+              "オリンパス",
               "KDDI",
               "日本電信電話",
-              "オリンパス",
-              "京セラ",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "京セラ"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12352,16 +12333,16 @@
           },
           "top_10": {
             "predicted": [
-              "日本電産",
-              "デンソー",
-              "イビデン",
+              "オリンパス",
               "KDDI",
               "日本電信電話",
-              "KOKUSAI ELECTRIC",
-              "オリンパス",
+              "ソフトバンクグループ",
+              "日本電産",
               "京セラ",
+              "KOKUSAI ELECTRIC",
               "TDK",
-              "ソフトバンクグループ"
+              "デンソー",
+              "イビデン"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12379,9 +12360,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "KDDI",
               "島津製作所",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "KDDI"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12391,11 +12372,11 @@
           },
           "top_5": {
             "predicted": [
-              "KDDI",
-              "島津製作所",
-              "日本電信電話",
               "オリンパス",
-              "ソフトバンクグループ"
+              "KDDI",
+              "日本電信電話",
+              "ソフトバンクグループ",
+              "島津製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12405,16 +12386,16 @@
           },
           "top_10": {
             "predicted": [
-              "スクウェア・エニックス",
-              "デンソー",
-              "KDDI",
-              "島津製作所",
-              "日本電信電話",
-              "KOKUSAI ELECTRIC",
-              "カプコン",
               "オリンパス",
+              "KDDI",
+              "日本電信電話",
+              "ソフトバンクグループ",
+              "スクウェア・エニックス",
+              "カプコン",
               "京セラ",
-              "ソフトバンクグループ"
+              "KOKUSAI ELECTRIC",
+              "島津製作所",
+              "デンソー"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12432,9 +12413,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "京セラ",
               "島津製作所",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "京セラ"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12444,11 +12425,11 @@
           },
           "top_5": {
             "predicted": [
-              "KDDI",
-              "島津製作所",
               "オリンパス",
+              "KDDI",
+              "ソフトバンクグループ",
               "京セラ",
-              "ソフトバンクグループ"
+              "島津製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12458,16 +12439,16 @@
           },
           "top_10": {
             "predicted": [
-              "SCREEN",
+              "SMC",
+              "オリンパス",
               "KDDI",
-              "島津製作所",
               "日本電信電話",
+              "ソフトバンクグループ",
+              "京セラ",
               "KOKUSAI ELECTRIC",
               "SUMCO",
-              "オリンパス",
-              "京セラ",
-              "ソフトバンクグループ",
-              "SMC"
+              "島津製作所",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12488,9 +12469,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "京セラ",
               "島津製作所",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "京セラ"
             ],
             "hits": [
               "島津製作所"
@@ -12503,10 +12484,10 @@
           "top_5": {
             "predicted": [
               "KDDI",
-              "島津製作所",
               "日本電信電話",
+              "ソフトバンクグループ",
               "京セラ",
-              "ソフトバンクグループ"
+              "島津製作所"
             ],
             "hits": [
               "島津製作所"
@@ -12518,16 +12499,16 @@
           },
           "top_10": {
             "predicted": [
-              "イビデン",
-              "KDDI",
-              "島津製作所",
-              "日本電信電話",
-              "KOKUSAI ELECTRIC",
+              "SMC",
               "オリンパス",
-              "京セラ",
-              "TDK",
+              "KDDI",
+              "日本電信電話",
               "ソフトバンクグループ",
-              "SMC"
+              "京セラ",
+              "KOKUSAI ELECTRIC",
+              "TDK",
+              "島津製作所",
+              "イビデン"
             ],
             "hits": [
               "島津製作所"
@@ -12551,59 +12532,62 @@
         "train_until": "2021-03",
         "predicted_month": "2021-04",
         "actual_new_entries": [
-          "電気機器",
-          "ディスコ"
+          "ディスコ",
+          "東証1部"
         ],
         "metrics": {
           "top_3": {
             "predicted": [
               "ソフトバンクグループ",
-              "精密機器",
-              "ディスコ"
+              "ディスコ",
+              "東証1部"
             ],
             "hits": [
-              "ディスコ"
+              "ディスコ",
+              "東証1部"
             ],
-            "hit_count": 1,
-            "precision": 0.333,
-            "recall": 0.5,
+            "hit_count": 2,
+            "precision": 0.667,
+            "recall": 1.0,
             "hit_rate": 1
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
-              "KOKUSAI ELECTRIC",
               "KDDI",
-              "精密機器",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "東証1部"
             ],
             "hits": [
-              "ディスコ"
+              "ディスコ",
+              "東証1部"
             ],
-            "hit_count": 1,
-            "precision": 0.2,
-            "recall": 0.5,
+            "hit_count": 2,
+            "precision": 0.4,
+            "recall": 1.0,
             "hit_rate": 1
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
               "KDDI",
-              "SUMCO",
-              "精密機器",
-              "ソシオネクスト",
               "トリケミカル研究所",
+              "ソフトバンクグループ",
               "ルネサスエレクトロニクス",
-              "ソフトバンクグループ"
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "東証1部",
+              "SUMCO",
+              "ソシオネクスト",
+              "SCREEN"
             ],
             "hits": [
-              "ディスコ"
+              "ディスコ",
+              "東証1部"
             ],
-            "hit_count": 1,
-            "precision": 0.1,
-            "recall": 0.5,
+            "hit_count": 2,
+            "precision": 0.2,
+            "recall": 1.0,
             "hit_rate": 1
           }
         },
@@ -12613,6 +12597,12 @@
             "type": "hit",
             "score": 0.47,
             "reason": "テーマ一致: 半導体; 過去14回採用（再登場候補）; 直近方針でポジティブシグナル; 入替サイクル: 過去14回登場、再登場パターン"
+          },
+          {
+            "name": "東証1部",
+            "type": "hit",
+            "score": 0.33,
+            "reason": "過去14回採用（再登場候補）; 直近方針でポジティブシグナル; 入替サイクル: 過去14回登場、再登場パターン"
           }
         ]
       },
@@ -12625,9 +12615,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "村田製作所",
+              "島津製作所",
               "ソフトバンクグループ",
-              "精密機器"
+              "村田製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12638,10 +12628,10 @@
           "top_5": {
             "predicted": [
               "KDDI",
-              "島津製作所",
+              "日本電信電話",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
-              "ソフトバンクグループ"
+              "島津製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12651,16 +12641,16 @@
           },
           "top_10": {
             "predicted": [
-              "SCREEN",
-              "KDDI",
-              "島津製作所",
-              "村田製作所",
-              "日本電信電話",
-              "KOKUSAI ELECTRIC",
-              "精密機器",
               "オリンパス",
+              "KDDI",
+              "日本電信電話",
+              "ソフトバンクグループ",
+              "村田製作所",
               "京セラ",
-              "ソフトバンクグループ"
+              "KOKUSAI ELECTRIC",
+              "SUMCO",
+              "島津製作所",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12678,9 +12668,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "村田製作所",
               "ソフトバンクグループ",
-              "ディスコ"
+              "ディスコ",
+              "村田製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12690,11 +12680,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
-              "島津製作所",
+              "KDDI",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "島津製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12704,16 +12694,16 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
-              "KDDI",
-              "島津製作所",
-              "村田製作所",
-              "日本電信電話",
-              "KOKUSAI ELECTRIC",
-              "精密機器",
               "オリンパス",
+              "KDDI",
+              "日本電信電話",
+              "ソフトバンクグループ",
+              "村田製作所",
               "京セラ",
-              "ソフトバンクグループ"
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "島津製作所",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12728,19 +12718,19 @@
         "train_until": "2021-06",
         "predicted_month": "2021-07",
         "actual_new_entries": [
-          "村田製作所",
-          "ソフトバンクグループ"
+          "ソフトバンクグループ",
+          "村田製作所"
         ],
         "metrics": {
           "top_3": {
             "predicted": [
-              "村田製作所",
               "ソフトバンクグループ",
-              "ディスコ"
+              "ディスコ",
+              "村田製作所"
             ],
             "hits": [
-              "村田製作所",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "村田製作所"
             ],
             "hit_count": 2,
             "precision": 0.667,
@@ -12749,15 +12739,15 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
-              "島津製作所",
+              "KDDI",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "島津製作所"
             ],
             "hits": [
-              "村田製作所",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "村田製作所"
             ],
             "hit_count": 2,
             "precision": 0.4,
@@ -12766,20 +12756,20 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
-              "KDDI",
-              "島津製作所",
-              "村田製作所",
-              "日本電信電話",
-              "KOKUSAI ELECTRIC",
-              "精密機器",
               "オリンパス",
+              "KDDI",
+              "日本電信電話",
+              "ソフトバンクグループ",
+              "村田製作所",
+              "カプコン",
               "京セラ",
-              "ソフトバンクグループ"
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "島津製作所"
             ],
             "hits": [
-              "村田製作所",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "村田製作所"
             ],
             "hit_count": 2,
             "precision": 0.2,
@@ -12814,8 +12804,8 @@
           "top_3": {
             "predicted": [
               "島津製作所",
-              "精密機器",
-              "ディスコ"
+              "ディスコ",
+              "東証1部"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12825,11 +12815,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
               "KDDI",
-              "島津製作所",
               "日本電信電話",
-              "精密機器"
+              "ディスコ",
+              "東証1部",
+              "島津製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12839,16 +12829,16 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
-              "KDDI",
-              "島津製作所",
-              "日本電信電話",
-              "電気機器",
-              "富士フイルムホールディングス",
-              "精密機器",
               "オリンパス",
+              "KDDI",
+              "日本電信電話",
+              "スクウェア・エニックス",
+              "カプコン",
               "京セラ",
-              "カプコン"
+              "富士フイルムホールディングス",
+              "ディスコ",
+              "東証1部",
+              "島津製作所"
             ],
             "hits": [
               "富士フイルムホールディングス"
@@ -12872,19 +12862,19 @@
         "train_until": "2021-08",
         "predicted_month": "2021-09",
         "actual_new_entries": [
-          "村田製作所",
-          "ソフトバンクグループ"
+          "ソフトバンクグループ",
+          "村田製作所"
         ],
         "metrics": {
           "top_3": {
             "predicted": [
-              "村田製作所",
               "ソフトバンクグループ",
-              "ディスコ"
+              "村田製作所",
+              "東証1部"
             ],
             "hits": [
-              "村田製作所",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "村田製作所"
             ],
             "hit_count": 2,
             "precision": 0.667,
@@ -12893,15 +12883,15 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
               "KDDI",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "東証1部"
             ],
             "hits": [
-              "村田製作所",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "村田製作所"
             ],
             "hit_count": 2,
             "precision": 0.4,
@@ -12910,20 +12900,20 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
+              "オリンパス",
               "KDDI",
               "日本電信電話",
+              "ソフトバンクグループ",
               "村田製作所",
-              "島津製作所",
-              "東京エレクトロン",
-              "精密機器",
-              "オリンパス",
               "京セラ",
-              "ソフトバンクグループ"
+              "東京エレクトロン",
+              "ディスコ",
+              "東証1部",
+              "島津製作所"
             ],
             "hits": [
-              "村田製作所",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "村田製作所"
             ],
             "hit_count": 2,
             "precision": 0.2,
@@ -12957,7 +12947,7 @@
             "predicted": [
               "アドバンテスト",
               "ディスコ",
-              "任天堂"
+              "東証1部"
             ],
             "hits": [],
             "hit_count": 0,
@@ -12967,11 +12957,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
+              "任天堂",
               "東京エレクトロン",
-              "精密機器",
-              "アドバンテスト",
-              "任天堂"
+              "ディスコ",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [
               "東京エレクトロン"
@@ -12983,16 +12973,16 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
-              "KDDI",
-              "東京エレクトロン",
-              "島津製作所",
-              "日本電信電話",
-              "KOKUSAI ELECTRIC",
-              "精密機器",
               "オリンパス",
-              "アドバンテスト",
-              "任天堂"
+              "任天堂",
+              "KDDI",
+              "日本電信電話",
+              "東京エレクトロン",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
+              "アドバンテスト"
             ],
             "hits": [
               "東京エレクトロン"
@@ -13020,8 +13010,8 @@
           "top_3": {
             "predicted": [
               "アドバンテスト",
-              "村田製作所",
-              "ディスコ"
+              "ディスコ",
+              "村田製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13031,11 +13021,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
+              "任天堂",
               "村田製作所",
-              "精密機器",
-              "アドバンテスト",
-              "任天堂"
+              "ディスコ",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13045,16 +13035,16 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
+              "オリンパス",
+              "任天堂",
               "KDDI",
               "日本電信電話",
               "村田製作所",
-              "島津製作所",
-              "精密機器",
-              "オリンパス",
               "京セラ",
-              "アドバンテスト",
-              "任天堂"
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13075,8 +13065,8 @@
           "top_3": {
             "predicted": [
               "アドバンテスト",
-              "村田製作所",
-              "ディスコ"
+              "ディスコ",
+              "村田製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13086,11 +13076,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
+              "任天堂",
               "村田製作所",
-              "精密機器",
-              "アドバンテスト",
-              "任天堂"
+              "ディスコ",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13100,16 +13090,16 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
+              "任天堂",
               "KDDI",
-              "島津製作所",
-              "村田製作所",
               "日本電信電話",
-              "KOKUSAI ELECTRIC",
-              "精密機器",
+              "村田製作所",
               "京セラ",
-              "アドバンテスト",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13130,8 +13120,8 @@
           "top_3": {
             "predicted": [
               "アドバンテスト",
-              "村田製作所",
-              "ディスコ"
+              "ディスコ",
+              "村田製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13141,11 +13131,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
+              "任天堂",
               "村田製作所",
-              "精密機器",
-              "アドバンテスト",
-              "任天堂"
+              "ディスコ",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [
               "任天堂"
@@ -13157,16 +13147,16 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
+              "任天堂",
               "KDDI",
-              "島津製作所",
-              "村田製作所",
               "日本電信電話",
-              "富士フイルムホールディングス",
-              "精密機器",
+              "村田製作所",
               "京セラ",
-              "アドバンテスト",
-              "任天堂"
+              "富士フイルムホールディングス",
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
+              "アドバンテスト"
             ],
             "hits": [
               "任天堂"
@@ -13196,8 +13186,8 @@
           "top_3": {
             "predicted": [
               "アドバンテスト",
-              "村田製作所",
-              "ディスコ"
+              "ディスコ",
+              "村田製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13207,10 +13197,10 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
               "KDDI",
               "村田製作所",
-              "精密機器",
+              "ディスコ",
+              "東証1部",
               "アドバンテスト"
             ],
             "hits": [],
@@ -13221,15 +13211,15 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
-              "KDDI",
-              "島津製作所",
-              "村田製作所",
-              "日本電信電話",
-              "富士フイルムホールディングス",
-              "精密機器",
               "オリンパス",
+              "KDDI",
+              "日本電信電話",
+              "村田製作所",
               "京セラ",
+              "富士フイルムホールディングス",
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
               "アドバンテスト"
             ],
             "hits": [
@@ -13260,8 +13250,8 @@
           "top_3": {
             "predicted": [
               "アドバンテスト",
-              "村田製作所",
-              "ソフトバンクグループ"
+              "ソフトバンクグループ",
+              "村田製作所"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13271,11 +13261,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
-              "KDDI",
+              "ソフトバンクグループ",
               "村田製作所",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13285,16 +13275,16 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
+              "オリンパス",
               "KDDI",
               "日本電信電話",
+              "ソフトバンクグループ",
               "村田製作所",
-              "島津製作所",
-              "精密機器",
-              "オリンパス",
               "京セラ",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13326,11 +13316,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13340,16 +13330,16 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
               "KDDI",
               "日本電信電話",
+              "ソフトバンクグループ",
               "村田製作所",
-              "島津製作所",
               "富士フイルムホールディングス",
-              "精密機器",
               "KOKUSAI ELECTRIC",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
+              "アドバンテスト"
             ],
             "hits": [
               "日本電信電話"
@@ -13388,11 +13378,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
               "KDDI",
-              "アドバンテスト",
               "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "ジーエス・ユアサコーポレーション",
+              "ディスコ",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13402,16 +13392,16 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
-              "KDDI",
-              "島津製作所",
-              "村田製作所",
-              "富士フイルムホールディングス",
-              "精密機器",
               "オリンパス",
-              "アドバンテスト",
+              "KDDI",
               "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "富士フイルムホールディングス",
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13443,11 +13433,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
-              "村田製作所",
-              "アドバンテスト",
               "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "ディスコ",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13457,16 +13447,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "ディスコ",
               "KDDI",
-              "島津製作所",
-              "村田製作所",
-              "KOKUSAI ELECTRIC",
-              "精密機器",
-              "アドバンテスト",
+              "レーザーテック",
               "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13498,11 +13488,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
-              "村田製作所",
-              "アドバンテスト",
               "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "ディスコ",
+              "アドバンテスト"
             ],
             "hits": [
               "ジーエス・ユアサコーポレーション"
@@ -13514,16 +13504,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "ディスコ",
-              "KOKUSAI ELECTRIC",
-              "島津製作所",
-              "村田製作所",
               "KDDI",
-              "精密機器",
-              "アドバンテスト",
+              "レーザーテック",
               "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
+              "アドバンテスト"
             ],
             "hits": [
               "ジーエス・ユアサコーポレーション"
@@ -13562,11 +13552,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13576,16 +13566,16 @@
           },
           "top_10": {
             "predicted": [
-              "ディスコ",
-              "イビデン",
               "KDDI",
-              "島津製作所",
+              "ソフトバンクグループ",
               "村田製作所",
               "富士フイルムホールディングス",
-              "精密機器",
               "京セラ",
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
               "アドバンテスト",
-              "ソフトバンクグループ"
+              "イビデン"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13615,11 +13605,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13630,15 +13620,15 @@
           "top_10": {
             "predicted": [
               "レーザーテック",
-              "ディスコ",
-              "イビデン",
-              "富士フイルムホールディングス",
-              "島津製作所",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
+              "富士フイルムホールディングス",
               "京セラ",
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
               "アドバンテスト",
-              "ソフトバンクグループ"
+              "イビデン"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13668,11 +13658,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13683,15 +13673,15 @@
           "top_10": {
             "predicted": [
               "レーザーテック",
-              "ディスコ",
-              "富士フイルムホールディングス",
-              "島津製作所",
+              "ソフトバンクグループ",
               "村田製作所",
-              "KOKUSAI ELECTRIC",
-              "精密機器",
+              "富士フイルムホールディングス",
               "京セラ",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "東証1部",
+              "島津製作所",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13725,11 +13715,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "ディスコ",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [
               "ディスコ"
@@ -13742,15 +13732,15 @@
           "top_10": {
             "predicted": [
               "レーザーテック",
-              "ディスコ",
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
-              "島津製作所",
+              "ソフトバンクグループ",
               "村田製作所",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "東証1部",
               "SUMCO",
-              "精密機器",
+              "島津製作所",
               "アドバンテスト",
-              "ソフトバンクグループ"
+              "SCREEN"
             ],
             "hits": [
               "ディスコ"
@@ -13793,11 +13783,11 @@
           },
           "top_5": {
             "predicted": [
-              "村田製作所",
-              "精密機器",
-              "アドバンテスト",
               "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "東証1部",
+              "アドバンテスト"
             ],
             "hits": [
               "ジーエス・ユアサコーポレーション"
@@ -13810,15 +13800,15 @@
           "top_10": {
             "predicted": [
               "レーザーテック",
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
+              "ソフトバンクグループ",
               "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "東証1部",
               "SUMCO",
-              "精密機器",
               "ソシオネクスト",
               "アドバンテスト",
-              "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "SCREEN"
             ],
             "hits": [
               "ジーエス・ユアサコーポレーション"
@@ -13845,9 +13835,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
+              "新光電気工業",
               "アドバンテスト",
-              "ソフトバンクグループ",
-              "新光電気工業"
+              "ソフトバンクグループ"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13857,11 +13847,11 @@
           },
           "top_5": {
             "predicted": [
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
+              "東証1部",
               "新光電気工業",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13871,16 +13861,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "富士フイルムホールディングス",
               "島津製作所",
+              "レーザーテック",
+              "ソフトバンクグループ",
               "村田製作所",
-              "KOKUSAI ELECTRIC",
-              "精密機器",
-              "新光電気工業",
+              "富士フイルムホールディングス",
               "京セラ",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "KOKUSAI ELECTRIC",
+              "東証1部",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13898,9 +13888,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
+              "新光電気工業",
               "アドバンテスト",
-              "ソフトバンクグループ",
-              "新光電気工業"
+              "ソフトバンクグループ"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13910,11 +13900,11 @@
           },
           "top_5": {
             "predicted": [
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
+              "東証1部",
               "新光電気工業",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13924,16 +13914,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "イビデン",
-              "富士フイルムホールディングス",
               "島津製作所",
+              "レーザーテック",
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
-              "新光電気工業",
               "京セラ",
+              "富士フイルムホールディングス",
+              "東証1部",
+              "新光電気工業",
               "アドバンテスト",
-              "ソフトバンクグループ"
+              "イビデン"
             ],
             "hits": [],
             "hit_count": 0,
@@ -13953,9 +13943,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
+              "新光電気工業",
               "アドバンテスト",
-              "ソフトバンクグループ",
-              "新光電気工業"
+              "ソフトバンクグループ"
             ],
             "hits": [
               "アドバンテスト"
@@ -13967,11 +13957,11 @@
           },
           "top_5": {
             "predicted": [
+              "ソフトバンクグループ",
               "村田製作所",
-              "精密機器",
+              "東証1部",
               "新光電気工業",
-              "アドバンテスト",
-              "ソフトバンクグループ"
+              "アドバンテスト"
             ],
             "hits": [
               "アドバンテスト"
@@ -13983,16 +13973,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
               "島津製作所",
+              "レーザーテック",
+              "ソフトバンクグループ",
               "村田製作所",
+              "KOKUSAI ELECTRIC",
+              "東証1部",
               "SUMCO",
-              "精密機器",
               "新光電気工業",
               "アドバンテスト",
-              "ソフトバンクグループ"
+              "SCREEN"
             ],
             "hits": [
               "アドバンテスト"
@@ -14021,8 +14011,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "ソフトバンクグループ",
               "新光電気工業",
+              "ソフトバンクグループ",
               "任天堂"
             ],
             "hits": [],
@@ -14033,11 +14023,11 @@
           },
           "top_5": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
-              "村田製作所",
-              "新光電気工業",
+              "任天堂",
               "ソフトバンクグループ",
-              "任天堂"
+              "村田製作所",
+              "KOKUSAI ELECTRIC",
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14047,16 +14037,16 @@
           },
           "top_10": {
             "predicted": [
+              "任天堂",
               "レーザーテック",
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
-              "村田製作所",
-              "SUMCO",
-              "ソシオネクスト",
-              "トリケミカル研究所",
-              "新光電気工業",
               "ソフトバンクグループ",
-              "任天堂"
+              "村田製作所",
+              "KOKUSAI ELECTRIC",
+              "ソシオネクスト",
+              "東証1部",
+              "SUMCO",
+              "新光電気工業",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14076,8 +14066,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "ソフトバンクグループ",
               "新光電気工業",
+              "ソフトバンクグループ",
               "任天堂"
             ],
             "hits": [
@@ -14091,10 +14081,10 @@
           "top_5": {
             "predicted": [
               "任天堂",
-              "KOKUSAI ELECTRIC",
-              "新光電気工業",
               "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "新光電気工業"
             ],
             "hits": [
               "新光電気工業"
@@ -14106,16 +14096,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
               "任天堂",
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
-              "村田製作所",
-              "SUMCO",
-              "ソシオネクスト",
-              "新光電気工業",
+              "レーザーテック",
               "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "東証1部",
+              "SUMCO",
+              "新光電気工業",
+              "SCREEN"
             ],
             "hits": [
               "新光電気工業"
@@ -14146,8 +14136,8 @@
           "top_3": {
             "predicted": [
               "KOKUSAI ELECTRIC",
-              "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "任天堂",
+              "ジーエス・ユアサコーポレーション"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14158,10 +14148,10 @@
           "top_5": {
             "predicted": [
               "任天堂",
-              "KOKUSAI ELECTRIC",
-              "村田製作所",
               "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14171,16 +14161,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
               "任天堂",
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
               "日本電信電話",
+              "レーザーテック",
+              "ソフトバンクグループ",
               "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
               "SUMCO",
               "ソシオネクスト",
-              "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14200,8 +14190,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
               "新光電気工業",
+              "KOKUSAI ELECTRIC",
               "任天堂"
             ],
             "hits": [],
@@ -14213,10 +14203,10 @@
           "top_5": {
             "predicted": [
               "任天堂",
-              "KOKUSAI ELECTRIC",
               "村田製作所",
-              "新光電気工業",
-              "ジーエス・ユアサコーポレーション"
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14226,16 +14216,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
               "任天堂",
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
               "日本電信電話",
+              "レーザーテック",
+              "ソフトバンクグループ",
               "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
               "SUMCO",
               "新光電気工業",
-              "ソフトバンクグループ",
-              "ジーエス・ユアサコーポレーション"
+              "SCREEN"
             ],
             "hits": [
               "ソフトバンクグループ"
@@ -14262,8 +14252,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
               "新光電気工業",
+              "KOKUSAI ELECTRIC",
               "任天堂"
             ],
             "hits": [],
@@ -14275,10 +14265,10 @@
           "top_5": {
             "predicted": [
               "任天堂",
-              "KOKUSAI ELECTRIC",
               "日本電信電話",
-              "新光電気工業",
-              "ジーエス・ユアサコーポレーション"
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14288,16 +14278,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
               "任天堂",
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
               "日本電信電話",
+              "レーザーテック",
+              "ミネベアミツミ",
               "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
               "SUMCO",
               "新光電気工業",
-              "ミネベアミツミ",
-              "ジーエス・ユアサコーポレーション"
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14317,8 +14307,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
               "新光電気工業",
+              "KOKUSAI ELECTRIC",
               "任天堂"
             ],
             "hits": [],
@@ -14330,10 +14320,10 @@
           "top_5": {
             "predicted": [
               "任天堂",
-              "KOKUSAI ELECTRIC",
-              "新光電気工業",
               "ミネベアミツミ",
-              "ジーエス・ユアサコーポレーション"
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14343,16 +14333,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
               "任天堂",
-              "SCREEN",
-              "KOKUSAI ELECTRIC",
               "日本電信電話",
-              "村田製作所",
-              "SUMCO",
-              "新光電気工業",
+              "レーザーテック",
               "ミネベアミツミ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "東証1部",
+              "新光電気工業",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14370,8 +14360,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
               "新光電気工業",
+              "KOKUSAI ELECTRIC",
               "太陽誘電"
             ],
             "hits": [],
@@ -14382,11 +14372,11 @@
           },
           "top_5": {
             "predicted": [
-              "レーザーテック",
               "太陽誘電",
+              "任天堂",
+              "レーザーテック",
               "KOKUSAI ELECTRIC",
-              "新光電気工業",
-              "任天堂"
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14396,16 +14386,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "SCREEN",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "SUMCO",
-              "ソシオネクスト",
+              "任天堂",
               "トリケミカル研究所",
-              "新光電気工業",
+              "レーザーテック",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "ソシオネクスト",
+              "SUMCO",
+              "新光電気工業",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14423,8 +14413,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
               "新光電気工業",
+              "KOKUSAI ELECTRIC",
               "太陽誘電"
             ],
             "hits": [],
@@ -14435,11 +14425,11 @@
           },
           "top_5": {
             "predicted": [
-              "レーザーテック",
               "太陽誘電",
+              "任天堂",
+              "レーザーテック",
               "KOKUSAI ELECTRIC",
-              "新光電気工業",
-              "任天堂"
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14449,16 +14439,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "SCREEN",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "SUMCO",
-              "ソシオネクスト",
+              "任天堂",
               "トリケミカル研究所",
-              "新光電気工業",
+              "レーザーテック",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "ソシオネクスト",
+              "SUMCO",
+              "新光電気工業",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14473,14 +14463,14 @@
         "train_until": "2023-11",
         "predicted_month": "2023-12",
         "actual_new_entries": [
-          "村田製作所",
-          "三菱電機"
+          "三菱電機",
+          "村田製作所"
         ],
         "metrics": {
           "top_3": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
               "新光電気工業",
+              "KOKUSAI ELECTRIC",
               "太陽誘電"
             ],
             "hits": [],
@@ -14492,10 +14482,10 @@
           "top_5": {
             "predicted": [
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "新光電気工業",
+              "任天堂",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14505,16 +14495,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "SCREEN",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "任天堂",
               "日本電信電話",
-              "SUMCO",
-              "ソシオネクスト",
-              "新光電気工業",
+              "レーザーテック",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "ソシオネクスト",
+              "SUMCO",
+              "新光電気工業",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14532,8 +14522,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
               "新光電気工業",
+              "KOKUSAI ELECTRIC",
               "太陽誘電"
             ],
             "hits": [],
@@ -14545,10 +14535,10 @@
           "top_5": {
             "predicted": [
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "任天堂",
               "日本電信電話",
-              "新光電気工業",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14558,16 +14548,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "SCREEN",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "任天堂",
               "日本電信電話",
-              "SUMCO",
-              "ソシオネクスト",
-              "新光電気工業",
+              "レーザーテック",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "ソシオネクスト",
+              "SUMCO",
+              "新光電気工業",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14587,8 +14577,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
               "新光電気工業",
+              "KOKUSAI ELECTRIC",
               "太陽誘電"
             ],
             "hits": [],
@@ -14600,10 +14590,10 @@
           "top_5": {
             "predicted": [
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "任天堂",
               "日本電信電話",
-              "新光電気工業",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14613,16 +14603,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "SCREEN",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "任天堂",
               "日本電信電話",
-              "SUMCO",
-              "ソシオネクスト",
-              "新光電気工業",
+              "レーザーテック",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "ソシオネクスト",
+              "SUMCO",
+              "新光電気工業",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14642,8 +14632,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
               "新光電気工業",
+              "KOKUSAI ELECTRIC",
               "太陽誘電"
             ],
             "hits": [],
@@ -14655,10 +14645,10 @@
           "top_5": {
             "predicted": [
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "新光電気工業",
+              "任天堂",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14668,16 +14658,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "SCREEN",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "任天堂",
               "日本電信電話",
-              "SUMCO",
-              "ソシオネクスト",
-              "新光電気工業",
+              "レーザーテック",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "ソシオネクスト",
+              "SUMCO",
+              "新光電気工業",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14697,8 +14687,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "KOKUSAI ELECTRIC",
               "新光電気工業",
+              "KOKUSAI ELECTRIC",
               "太陽誘電"
             ],
             "hits": [],
@@ -14710,10 +14700,10 @@
           "top_5": {
             "predicted": [
               "太陽誘電",
+              "任天堂",
               "KOKUSAI ELECTRIC",
-              "新光電気工業",
               "ソニーグループ",
-              "任天堂"
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14723,16 +14713,16 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "SCREEN",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "SUMCO",
-              "ソシオネクスト",
+              "任天堂",
               "トリケミカル研究所",
-              "新光電気工業",
+              "レーザーテック",
+              "KOKUSAI ELECTRIC",
               "ソニーグループ",
-              "任天堂"
+              "ソシオネクスト",
+              "SUMCO",
+              "新光電気工業",
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14747,15 +14737,15 @@
         "train_until": "2024-04",
         "predicted_month": "2024-05",
         "actual_new_entries": [
-          "日本電信電話",
-          "任天堂"
+          "任天堂",
+          "日本電信電話"
         ],
         "metrics": {
           "top_3": {
             "predicted": [
+              "新光電気工業",
               "アドバンテスト",
-              "ソニーグループ",
-              "新光電気工業"
+              "ソニーグループ"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14767,9 +14757,9 @@
             "predicted": [
               "太陽誘電",
               "KOKUSAI ELECTRIC",
+              "ソニーグループ",
               "新光電気工業",
-              "アドバンテスト",
-              "ソニーグループ"
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14779,20 +14769,20 @@
           },
           "top_10": {
             "predicted": [
-              "レーザーテック",
-              "SCREEN",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "任天堂",
               "日本電信電話",
+              "レーザーテック",
               "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "ソニーグループ",
               "新光電気工業",
               "アドバンテスト",
-              "ソニーグループ",
-              "任天堂"
+              "SCREEN"
             ],
             "hits": [
-              "日本電信電話",
-              "任天堂"
+              "任天堂",
+              "日本電信電話"
             ],
             "hit_count": 2,
             "precision": 0.2,
@@ -14824,9 +14814,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
+              "新光電気工業",
               "アドバンテスト",
-              "ローム",
-              "新光電気工業"
+              "ローム"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14836,11 +14826,11 @@
           },
           "top_5": {
             "predicted": [
-              "ローム",
               "太陽誘電",
+              "ローム",
+              "ソニーグループ",
               "新光電気工業",
-              "アドバンテスト",
-              "ソニーグループ"
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14850,16 +14840,16 @@
           },
           "top_10": {
             "predicted": [
+              "太陽誘電",
               "ローム",
               "レーザーテック",
-              "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "村田製作所",
-              "新光電気工業",
-              "アドバンテスト",
-              "ソニーグループ",
               "ミネベアミツミ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "ソニーグループ",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [
               "村田製作所"
@@ -14888,9 +14878,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
+              "新光電気工業",
               "アドバンテスト",
-              "ローム",
-              "新光電気工業"
+              "ローム"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14900,11 +14890,11 @@
           },
           "top_5": {
             "predicted": [
-              "ローム",
               "太陽誘電",
+              "ローム",
+              "ソニーグループ",
               "新光電気工業",
-              "アドバンテスト",
-              "ソニーグループ"
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14914,16 +14904,16 @@
           },
           "top_10": {
             "predicted": [
+              "太陽誘電",
               "ローム",
               "レーザーテック",
-              "太陽誘電",
+              "ミネベアミツミ",
+              "ジーエス・ユアサコーポレーション",
               "KOKUSAI ELECTRIC",
-              "SCREEN",
+              "ソニーグループ",
               "新光電気工業",
               "アドバンテスト",
-              "ソニーグループ",
-              "ミネベアミツミ",
-              "ジーエス・ユアサコーポレーション"
+              "SCREEN"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14939,8 +14929,8 @@
         "predicted_month": "2024-08",
         "actual_new_entries": [
           "フジクラ",
-          "古河電気工業",
-          "富士通"
+          "富士通",
+          "古河電気工業"
         ],
         "metrics": {
           "top_3": {
@@ -14957,9 +14947,9 @@
           },
           "top_5": {
             "predicted": [
+              "太陽誘電",
               "ローム",
               "ディスコ",
-              "太陽誘電",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -14971,16 +14961,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "KDDI",
-              "新光電気工業",
-              "アドバンテスト",
-              "ソニーグループ",
+              "ローム",
               "ミネベアミツミ",
-              "ジーエス・ユアサコーポレーション"
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "ソニーグループ",
+              "東証1部",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -14998,8 +14988,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "東京エレクトロン",
               "新光電気工業",
+              "東京エレクトロン",
               "ディスコ"
             ],
             "hits": [],
@@ -15011,8 +15001,8 @@
           "top_5": {
             "predicted": [
               "ローム",
-              "ディスコ",
               "東京エレクトロン",
+              "ディスコ",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -15024,16 +15014,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "東京エレクトロン",
-              "新光電気工業",
-              "アドバンテスト",
-              "ソニーグループ",
+              "ローム",
               "ミネベアミツミ",
-              "ジーエス・ユアサコーポレーション"
+              "ジーエス・ユアサコーポレーション",
+              "東京エレクトロン",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "ソニーグループ",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15065,11 +15055,11 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
               "太陽誘電",
               "東京エレクトロン",
-              "新光電気工業",
-              "ソニーグループ"
+              "ディスコ",
+              "ソニーグループ",
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15079,16 +15069,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
               "KDDI",
-              "東京エレクトロン",
-              "新光電気工業",
-              "アドバンテスト",
-              "ソニーグループ",
+              "ローム",
               "ミネベアミツミ",
-              "ジーエス・ユアサコーポレーション"
+              "ジーエス・ユアサコーポレーション",
+              "東京エレクトロン",
+              "ディスコ",
+              "ソニーグループ",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [
               "アドバンテスト"
@@ -15117,8 +15107,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "東京エレクトロン",
               "新光電気工業",
+              "東京エレクトロン",
               "ディスコ"
             ],
             "hits": [],
@@ -15129,10 +15119,10 @@
           },
           "top_5": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
+              "ローム",
               "東京エレクトロン",
+              "ディスコ",
               "新光電気工業"
             ],
             "hits": [],
@@ -15143,16 +15133,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "東京エレクトロン",
-              "ジーエス・ユアサコーポレーション",
-              "新光電気工業",
-              "ソニーグループ",
+              "任天堂",
+              "ローム",
               "ミネベアミツミ",
-              "任天堂"
+              "ジーエス・ユアサコーポレーション",
+              "東京エレクトロン",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "ソニーグループ",
+              "新光電気工業"
             ],
             "hits": [
               "任天堂"
@@ -15181,8 +15171,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "東京エレクトロン",
               "新光電気工業",
+              "東京エレクトロン",
               "ディスコ"
             ],
             "hits": [],
@@ -15193,10 +15183,10 @@
           },
           "top_5": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
+              "ローム",
               "東京エレクトロン",
+              "ディスコ",
               "新光電気工業"
             ],
             "hits": [],
@@ -15207,16 +15197,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "東京エレクトロン",
-              "村田製作所",
-              "新光電気工業",
-              "ソニーグループ",
+              "ローム",
               "ミネベアミツミ",
-              "ジーエス・ユアサコーポレーション"
+              "村田製作所",
+              "ジーエス・ユアサコーポレーション",
+              "東京エレクトロン",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "ソニーグループ",
+              "新光電気工業"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15236,8 +15226,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "東京エレクトロン",
               "新光電気工業",
+              "東京エレクトロン",
               "ディスコ"
             ],
             "hits": [],
@@ -15249,10 +15239,10 @@
           "top_5": {
             "predicted": [
               "ローム",
-              "ディスコ",
               "東京エレクトロン",
-              "新光電気工業",
-              "ソニーグループ"
+              "ディスコ",
+              "ソニーグループ",
+              "新光電気工業"
             ],
             "hits": [
               "ソニーグループ"
@@ -15264,16 +15254,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "東京エレクトロン",
+              "任天堂",
+              "ローム",
               "村田製作所",
               "ジーエス・ユアサコーポレーション",
-              "新光電気工業",
+              "東京エレクトロン",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
               "ソニーグループ",
-              "任天堂"
+              "新光電気工業"
             ],
             "hits": [
               "ソニーグループ"
@@ -15301,8 +15291,8 @@
           "top_3": {
             "predicted": [
               "東京エレクトロン",
-              "アドバンテスト",
-              "ディスコ"
+              "ディスコ",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15313,8 +15303,8 @@
           "top_5": {
             "predicted": [
               "ローム",
-              "ディスコ",
               "東京エレクトロン",
+              "ディスコ",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -15326,16 +15316,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "東京エレクトロン",
+              "任天堂",
+              "ローム",
               "村田製作所",
-              "新光電気工業",
-              "アドバンテスト",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "東京エレクトロン",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15354,8 +15344,8 @@
           "top_3": {
             "predicted": [
               "東京エレクトロン",
-              "アドバンテスト",
-              "ディスコ"
+              "ディスコ",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15366,8 +15356,8 @@
           "top_5": {
             "predicted": [
               "ローム",
-              "ディスコ",
               "東京エレクトロン",
+              "ディスコ",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -15379,16 +15369,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "東京エレクトロン",
+              "任天堂",
+              "ローム",
               "村田製作所",
-              "新光電気工業",
-              "アドバンテスト",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "東京エレクトロン",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15403,15 +15393,15 @@
         "train_until": "2025-03",
         "predicted_month": "2025-04",
         "actual_new_entries": [
-          "情報・通信業",
+          "東証プライム",
           "任天堂"
         ],
         "metrics": {
           "top_3": {
             "predicted": [
               "東京エレクトロン",
-              "アドバンテスト",
-              "ディスコ"
+              "ディスコ",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15422,8 +15412,8 @@
           "top_5": {
             "predicted": [
               "ローム",
-              "ディスコ",
               "東京エレクトロン",
+              "ディスコ",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -15435,16 +15425,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
-              "東京エレクトロン",
+              "任天堂",
+              "ローム",
               "村田製作所",
-              "新光電気工業",
-              "アドバンテスト",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "東京エレクトロン",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [
               "任天堂"
@@ -15487,10 +15477,10 @@
           },
           "top_5": {
             "predicted": [
-              "ディスコ",
               "太陽誘電",
-              "東京エレクトロン",
               "日立製作所",
+              "東京エレクトロン",
+              "ディスコ",
               "アドバンテスト"
             ],
             "hits": [
@@ -15503,16 +15493,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
               "KDDI",
-              "東京エレクトロン",
+              "ローム",
               "村田製作所",
               "日立製作所",
+              "ジーエス・ユアサコーポレーション",
+              "東京エレクトロン",
+              "ディスコ",
               "新光電気工業",
-              "アドバンテスト",
-              "ジーエス・ユアサコーポレーション"
+              "アドバンテスト"
             ],
             "hits": [
               "東京エレクトロン"
@@ -15541,8 +15531,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "アドバンテスト",
               "新光電気工業",
+              "アドバンテスト",
               "ディスコ"
             ],
             "hits": [],
@@ -15554,8 +15544,8 @@
           "top_5": {
             "predicted": [
               "ローム",
-              "ディスコ",
               "日立製作所",
+              "ディスコ",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -15567,16 +15557,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
+              "任天堂",
               "KDDI",
+              "ローム",
               "村田製作所",
               "日立製作所",
-              "新光電気工業",
-              "アドバンテスト",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "ディスコ",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [
               "任天堂"
@@ -15606,8 +15596,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "アドバンテスト",
               "新光電気工業",
+              "アドバンテスト",
               "ディスコ"
             ],
             "hits": [],
@@ -15619,8 +15609,8 @@
           "top_5": {
             "predicted": [
               "ローム",
-              "ディスコ",
               "日立製作所",
+              "ディスコ",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -15632,16 +15622,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "ローム",
+              "ミネベアミツミ",
               "村田製作所",
               "日立製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
               "新光電気工業",
-              "アドバンテスト",
-              "ミネベアミツミ",
-              "ジーエス・ユアサコーポレーション"
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15661,9 +15651,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "日本電信電話",
               "アドバンテスト",
-              "ディスコ"
+              "ディスコ",
+              "日本電信電話"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15673,9 +15663,9 @@
           },
           "top_5": {
             "predicted": [
+              "日本電信電話",
               "ローム",
               "ディスコ",
-              "日本電信電話",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -15687,16 +15677,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "任天堂",
               "日本電信電話",
+              "ローム",
               "日立製作所",
-              "新光電気工業",
-              "アドバンテスト",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [
               "任天堂"
@@ -15725,8 +15715,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "アドバンテスト",
               "新光電気工業",
+              "アドバンテスト",
               "ディスコ"
             ],
             "hits": [],
@@ -15737,9 +15727,9 @@
           },
           "top_5": {
             "predicted": [
+              "日本電信電話",
               "ローム",
               "ディスコ",
-              "日本電信電話",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -15751,16 +15741,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
               "日本電信電話",
+              "ローム",
               "村田製作所",
               "日立製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
               "新光電気工業",
-              "アドバンテスト",
-              "ジーエス・ユアサコーポレーション"
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15780,8 +15770,8 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "アドバンテスト",
               "新光電気工業",
+              "アドバンテスト",
               "ディスコ"
             ],
             "hits": [],
@@ -15792,9 +15782,9 @@
           },
           "top_5": {
             "predicted": [
+              "日本電信電話",
               "ローム",
               "ディスコ",
-              "日本電信電話",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -15806,16 +15796,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "任天堂",
               "日本電信電話",
+              "ローム",
               "日立製作所",
-              "新光電気工業",
-              "アドバンテスト",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15836,9 +15826,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
-              "日本電信電話",
               "アドバンテスト",
-              "ディスコ"
+              "ディスコ",
+              "日本電信電話"
             ],
             "hits": [
               "ディスコ"
@@ -15850,9 +15840,9 @@
           },
           "top_5": {
             "predicted": [
+              "日本電信電話",
               "ローム",
               "ディスコ",
-              "日本電信電話",
               "新光電気工業",
               "アドバンテスト"
             ],
@@ -15866,16 +15856,16 @@
           },
           "top_10": {
             "predicted": [
-              "ローム",
-              "ディスコ",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
+              "任天堂",
               "日本電信電話",
+              "ローム",
               "日立製作所",
-              "新光電気工業",
-              "アドバンテスト",
               "ジーエス・ユアサコーポレーション",
-              "任天堂"
+              "KOKUSAI ELECTRIC",
+              "ディスコ",
+              "新光電気工業",
+              "アドバンテスト"
             ],
             "hits": [
               "ディスコ",
@@ -15909,9 +15899,9 @@
         "metrics": {
           "top_3": {
             "predicted": [
+              "新光電気工業",
               "アドバンテスト",
-              "ローム",
-              "新光電気工業"
+              "ローム"
             ],
             "hits": [],
             "hit_count": 0,
@@ -15921,8 +15911,8 @@
           },
           "top_5": {
             "predicted": [
-              "ローム",
               "日本電信電話",
+              "ローム",
               "日立製作所",
               "新光電気工業",
               "アドバンテスト"
@@ -15935,16 +15925,16 @@
           },
           "top_10": {
             "predicted": [
-              "情報・通信業",
-              "ローム",
               "太陽誘電",
-              "KOKUSAI ELECTRIC",
               "日本電信電話",
+              "ローム",
+              "ミネベアミツミ",
               "村田製作所",
               "日立製作所",
+              "ジーエス・ユアサコーポレーション",
+              "KOKUSAI ELECTRIC",
               "新光電気工業",
-              "アドバンテスト",
-              "ジーエス・ユアサコーポレーション"
+              "アドバンテスト"
             ],
             "hits": [],
             "hit_count": 0,
@@ -17167,7 +17157,7 @@
         },
         {
           "rank": 3,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "8.1",
           "sector": ""
         },
@@ -17304,7 +17294,7 @@
         },
         {
           "rank": 3,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "8.2",
           "sector": ""
         },
@@ -17440,7 +17430,7 @@
         },
         {
           "rank": 3,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "8.3",
           "sector": ""
         },
@@ -17579,7 +17569,7 @@
         },
         {
           "rank": 3,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "8.0",
           "sector": ""
         },
@@ -17733,7 +17723,7 @@
         },
         {
           "rank": 5,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "6.4",
           "sector": ""
         },
@@ -17872,7 +17862,7 @@
         },
         {
           "rank": 5,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "6.0",
           "sector": ""
         },
@@ -18019,7 +18009,7 @@
         },
         {
           "rank": 5,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "6.1",
           "sector": ""
         },
@@ -18159,7 +18149,7 @@
         },
         {
           "rank": 4,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "6.0",
           "sector": ""
         },
@@ -18301,7 +18291,7 @@
         },
         {
           "rank": 4,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "6.5",
           "sector": ""
         },
@@ -18475,7 +18465,7 @@
         },
         {
           "rank": 9,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "4.8",
           "sector": ""
         },
@@ -18610,7 +18600,7 @@
         },
         {
           "rank": 8,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "4.5",
           "sector": ""
         },
@@ -18751,7 +18741,7 @@
         },
         {
           "rank": 8,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "4.4",
           "sector": ""
         },
@@ -18898,7 +18888,7 @@
         },
         {
           "rank": 8,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "3.9",
           "sector": ""
         },
@@ -19049,7 +19039,7 @@
         },
         {
           "rank": 9,
-          "name": "精密機器",
+          "name": "東証1部",
           "weight": "3.6",
           "sector": ""
         },
@@ -19334,7 +19324,7 @@
         },
         {
           "rank": 8,
-          "name": "電気機器",
+          "name": "東証1部",
           "weight": "4.9",
           "sector": ""
         },
@@ -19479,7 +19469,7 @@
         },
         {
           "rank": 8,
-          "name": "電気機器",
+          "name": "東証1部",
           "weight": "4.6",
           "sector": ""
         },
@@ -19622,7 +19612,7 @@
         },
         {
           "rank": 8,
-          "name": "電気機器",
+          "name": "東証1部",
           "weight": "4.2",
           "sector": ""
         },
@@ -26780,7 +26770,7 @@
         },
         {
           "rank": 6,
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "weight": "5.1",
           "sector": ""
         },
@@ -26952,7 +26942,7 @@
         },
         {
           "rank": 8,
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "weight": "4.9",
           "sector": ""
         },
@@ -27121,7 +27111,7 @@
         },
         {
           "rank": 9,
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "weight": "4.4",
           "sector": ""
         },
@@ -27274,7 +27264,7 @@
         },
         {
           "rank": 8,
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "weight": "5.1",
           "sector": ""
         },
@@ -27434,7 +27424,7 @@
         },
         {
           "rank": 8,
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "weight": "5.1",
           "sector": ""
         },
@@ -27600,7 +27590,7 @@
         },
         {
           "rank": 9,
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "weight": "3.8",
           "sector": ""
         },
@@ -27766,7 +27756,7 @@
         },
         {
           "rank": 9,
-          "name": "情報・通信業",
+          "name": "東証プライム",
           "weight": "3.0",
           "sector": ""
         },

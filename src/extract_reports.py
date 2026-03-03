@@ -28,6 +28,7 @@ from config import (
     THEME_KEYWORDS,
     SIGNAL_KEYWORDS,
     NORMALIZATION_RULES,
+    SECTOR_BLOCKLIST,
 )
 
 
@@ -217,11 +218,13 @@ def extract_holdings_table(pdf) -> list:
                         "sector": "",
                     }
 
-                    # 銘柄名を探す（日本語が含まれるセル、30文字以下）
+                    # 銘柄名を探す（日本語が含まれるセル、30文字以下、業種名を除外）
                     for cell in cells:
                         if re.search(r"[\u3040-\u9fff]", cell) and 1 < len(cell) <= 30:
-                            holding["name"] = normalize_stock_name(cell)
-                            break
+                            candidate = normalize_stock_name(cell)
+                            if candidate not in SECTOR_BLOCKLIST:
+                                holding["name"] = candidate
+                                break
 
                     # 比率を探す（%を含むセル）
                     for cell in cells:
@@ -255,7 +258,7 @@ def extract_holdings_from_text(text: str) -> list:
     
     for m in pattern1.finditer(text):
         name = normalize_stock_name(m.group(1).strip())
-        if name and len(name) > 1:
+        if name and len(name) > 1 and name not in SECTOR_BLOCKLIST:
             holdings.append({
                 "rank": len(holdings) + 1,
                 "name": name,
@@ -274,7 +277,7 @@ def extract_holdings_from_text(text: str) -> list:
         )
         for m in pattern2.finditer(text):
             name = normalize_stock_name(m.group(2).strip())
-            if name and len(name) > 1:
+            if name and len(name) > 1 and name not in SECTOR_BLOCKLIST:
                 holdings.append({
                     "rank": int(m.group(1)),
                     "name": name,
@@ -291,7 +294,7 @@ def extract_holdings_from_text(text: str) -> list:
         )
         for m in pattern3.finditer(text):
             name = normalize_stock_name(m.group(2).strip())
-            if name and len(name) > 1:
+            if name and len(name) > 1 and name not in SECTOR_BLOCKLIST:
                 existing_names = [h["name"] for h in holdings]
                 if name not in existing_names:
                     holdings.append({
